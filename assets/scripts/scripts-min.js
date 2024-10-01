@@ -1,0 +1,1 @@
+const headerEl=document.querySelector(".navigation");window.addEventListener("scroll",(()=>{window.scrollY>100?headerEl.classList.add("header-scrolled"):window.scrollY<=100&&headerEl.classList.remove("header-scrolled")}));
