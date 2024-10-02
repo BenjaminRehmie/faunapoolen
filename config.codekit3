@@ -49,6 +49,19 @@
       "oAP" : "\/assets\/components\/_navigation.html",
       "oF" : 0
     },
+    "\/assets\/images\/Background-Image-Template-#1.jpg" : {
+      "ft" : 16384,
+      "iS" : 246354,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/Background-Image-Template-#1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/background-texture-leafs.jpg" : {
       "ft" : 16384,
       "iS" : 165546,
@@ -122,7 +135,7 @@
       "oAP" : "\/assets\/images\/header-background-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -200,7 +213,7 @@
       "oAP" : "\/assets\/images\/header-background-5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

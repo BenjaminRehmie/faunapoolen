@@ -1,27 +1,47 @@
 <!-- @include '/assets/components/_header.kit' -->
-<div class="background-image" style="background-image: url(/assets/images/header-background-5.jpg);"></div>
+<div
+  class="background-image"
+  style="background-image: url(/assets/images/header-background-5.jpg)"></div>
 
 <header>
   <h1>Få ett prisförslag</h1>
+  <p
+    >Hör gärna av dig till oss! Vi ser fram emot att ge dig ett skräddarsytt
+    prisförslag för installationen av din alldeles egna naturliga pool.</p
+  >
 </header>
 
-
-<section class="pt-0">
+<section>
   <div class="section-content">
     <div class="grid-row">
       <div class="grid-cell">
-        <p>Hör gärna av dig till oss! Vi ser fram emot att ge dig ett skräddarsytt prisförslag för installationen av din alldeles egna naturliga pool.</p>
+        <p>Skicka gärna ett e-postmeddelande, ring oss, eller använd vårt kontaktformulär.</p>
+        <table class="mt-2">
+          <tbody>
+            <tr>
+            <td width="1%">Epost</td>
+            <td>info@faunapoolen.se</td>
+          </tr>
+          <tr>
+            <td width="1%">Telefon</td>
+            <td>0728 - 87 70 13</td>
+          </tr>
+          </tbody>
+        </table>
       </div>
       <div class="grid-cell">
-        <p>Epost: info@faunapoolen.se</p>
-        <p>Telefon: 072-88 77 013</p>
-
+        <form action="https://formspree.io/f/xnnaekgl" method="POST">
+          <input type="email" name="email" placeholder="Din email..." />
+          <textarea
+            name="message"
+            placeholder="Beskriv vad du vill ha..."></textarea>
+          <!-- your other form fields go here -->
+          <button type="submit">Skicka mig en offert</button>
+        </form>
       </div>
     </div>
   </div>
 </section>
-
-
 
 <!-- @include '/assets/components/_navigation.kit' -->
 <!-- @include '/assets/components/_footer.kit' -->

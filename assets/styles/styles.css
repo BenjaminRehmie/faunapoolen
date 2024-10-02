@@ -50,6 +50,7 @@ footer {
   flex-flow: row nowrap;
   gap: 1rem;
   color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 nav {
@@ -153,6 +154,14 @@ li {
   text-rendering: optimizeLegibility;
 }
 
+td,
+a,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 h1,
 h2,
 h3,
@@ -182,7 +191,7 @@ h3 {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
 }
 p:last-of-type {
   margin-bottom: 0;
@@ -191,6 +200,36 @@ p:last-of-type {
 a {
   color: #00a1e4;
   text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+table th,
+table tr,
+table td {
+  padding: 0 2rem 0 0;
+  width: min-content;
+}
+
+form input[type=text],
+form input[type=email],
+form textarea {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+  outline: none;
+  color: #ffffff;
+}
+
+button {
+  background-color: #00a1e4;
+  border: none;
+  border-radius: 300px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 .button {

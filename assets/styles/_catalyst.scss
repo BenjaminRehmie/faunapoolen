@@ -49,6 +49,7 @@ footer {
   flex-flow: row nowrap;
   gap: 1rem;
   color: rgba(white, 0.5);
+  border-top: $line;
 }
 
 nav {
@@ -163,6 +164,14 @@ li {
   text-rendering: optimizeLegibility;
 }
 
+td,
+a,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 h1,
 h2,
 h3,
@@ -191,7 +200,7 @@ h3 {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
 
   &:last-of-type {
     margin-bottom: 0;
@@ -201,6 +210,39 @@ p {
 a {
   color: $primary;
   text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+
+  th,
+  tr,
+  td {
+    padding: 0 2rem 0 0;
+    width: min-content;
+  }
+}
+
+form {
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    background-color: rgba(white, 0.2);
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(white, 0.2);
+    margin-bottom: 1rem;
+    outline: none;
+    color: $white;
+  }
+}
+
+button {
+  background-color: $primary;
+  border: none;
+  border-radius: 300px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 .button {
