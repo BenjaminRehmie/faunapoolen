@@ -65,11 +65,64 @@ nav {
   gap: 1rem;
   padding: 0 1rem;
 }
+nav label {
+  position: relative;
+  z-index: 999;
+}
+nav label .material-icons {
+  height: 32px;
+  width: 32px;
+  font-size: 32px;
+  display: block;
+  cursor: pointer;
+}
+@media (min-width: 640px) {
+  nav label .material-icons {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  nav .menu {
+    transition: right 0.5s cubic-bezier(0.17, 0.67, 0.23, 1);
+    position: fixed;
+    right: -280px;
+    top: 0;
+    height: 100vh;
+    width: 280px;
+    background-color: #001d28;
+    padding-top: 64px;
+    z-index: 1;
+  }
+}
+nav .menu-overlay {
+  display: none;
+}
+nav input[type=checkbox] {
+  display: none;
+}
+nav input[type=checkbox]:checked ~ .menu {
+  right: 0;
+}
+nav input[type=checkbox]:checked ~ .menu-overlay {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+}
 nav a {
   position: relative;
   color: #ffffff;
   margin-left: 1rem;
   display: inline-block;
+}
+@media (max-width: 640px) {
+  nav a {
+    display: block;
+    margin: 1rem;
+  }
 }
 nav a::after {
   pointer-events: none;
@@ -585,7 +638,6 @@ body {
 
 header {
   position: relative;
-  min-height: 60vh;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -736,10 +788,24 @@ section.cta .section-content {
   max-width: 250px;
 }
 
+a.blur-box {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+a.blur-box:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .blur-box {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
   padding: 2rem;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+  gap: 1rem;
 }
 .blur-box .material-icons {
   font-size: 40px;
@@ -748,6 +814,13 @@ section.cta .section-content {
 .blur-box p {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.5;
+}
+.blur-box .fake-button {
+  width: 100%;
+  display: block;
+  padding: 1rem 0 0 0;
+  margin-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .packages {

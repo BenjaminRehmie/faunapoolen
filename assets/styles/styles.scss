@@ -13,7 +13,6 @@ body {
 
 header {
   position: relative;
-  min-height: 60vh;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -179,10 +178,25 @@ section {
   }
 }
 
+a.blur-box {
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(white, 0.2);
+  }
+}
+
 .blur-box {
   background-color: rgba(white, 0.1);
   backdrop-filter: blur(8px);
   padding: 2rem;
+  color: $white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+  gap: 1rem;
 
   .material-icons {
     font-size: 40px;
@@ -192,6 +206,14 @@ section {
   p {
     color: rgba(white, 0.6);
     line-height: 1.5;
+  }
+
+  .fake-button {
+    width: 100%;
+    display: block;
+    padding: 1rem 0 0 0;
+    margin-top: 1rem;
+    border-top: $line;
   }
 }
 
