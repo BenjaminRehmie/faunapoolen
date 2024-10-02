@@ -16,14 +16,20 @@ body {
 
 main {
   margin: 0 auto;
+  padding: 0 1rem;
 
-  img {
-    max-width: 100%;
-  }
+}
+
+img {
+  max-width: 100%;
 }
 
 section {
   padding: 6rem 0;
+
+  @media (max-width: $breakpoint-small) {
+    padding: 3rem 0;
+  }
 
   .section-content {
     max-width: $page-max-width;
@@ -53,7 +59,7 @@ nav {
   justify-content: space-between;
   flex-flow: row nowrap;
   gap: 1rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
 
   a {
     position: relative;
@@ -102,6 +108,10 @@ h1,h2,h3,h4 {
 h1 {
   font-size: 4rem;
   letter-spacing: -0.05rem;
+
+  @media (max-width: $breakpoint-small) {
+    font-size: 3rem;
+  }
 }
 
 h2 {
@@ -145,11 +155,12 @@ a {
 
   .grid-cell {
     flex: auto;
-    width: min-content;
+    width: 100%;
   }
 
   @media (max-width: $breakpoint-small) {
     flex-flow: column nowrap;
+    gap: 2rem;
   }
 }
 

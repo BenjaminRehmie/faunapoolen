@@ -7,10 +7,6 @@
 
 body {
   background-color: $contrast;
-  // background-image: url(/assets/images/header-background-1.jpg);
-  // background-position: top right;
-  // background-repeat: no-repeat;
-  // background-size: 100%;
   font-family: $font-family;
   color: $white;
 }
@@ -116,8 +112,10 @@ section {
   }
   &.cta {
     padding: 12rem 0;
-    background: #ffffff url('/assets/images/background-texture-leafs.jpg')
+    background: $contrast url('/assets/images/background-texture-leafs.jpg')
       no-repeat;
+    margin: 0 -1rem;
+    width: calc(100% + 2rem);
 
     .section-content {
       text-align: center;
