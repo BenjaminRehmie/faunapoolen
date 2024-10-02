@@ -2,12 +2,11 @@
   @return red($hex), green($hex), blue($hex);
 }
 
-$primary: #00a1e4;
-$secondary: #249AB2;
-$accent: #F39568;
-$contrast: #001d28;
-$success: #60cd79;
-$danger: #ea5252;
+$primary: #00a1e4; // blue
+$secondary: #0A958E; // cyan
+$accent: #F39568; // yellow
+$contrast: #001d28; // dark blue
+
 
 $font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
   Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -15,7 +14,7 @@ $font-family-headings: 'Literata', -apple-system, BlinkMacSystemFont, 'Segoe UI'
   Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 $font-family-numbers: $font-family;
 
-$page-max-width: 960px;
+$page-max-width: 1200px;
 $page-max-width-responsive: 600px;
 $side-bar-width: 250px;
 $responsive-width: 450px;
@@ -49,7 +48,7 @@ $border-radius: $factor;
 $click-area: 40px;
 $click-area-small: 32px;
 $line: 1px solid rgba(white, 0.08);
-$box-shadow: 0 4px 24px rgba(black, 0.2);
+$box-shadow: 0 8px 32px rgba(black, 0.5);
 
 $breakpoint-small: 640px;
 $breakpoint-medium: 1024px;

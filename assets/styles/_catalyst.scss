@@ -16,8 +16,11 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 
+  @media (max-width: $breakpoint-small) {
+    padding: 0 1rem;
+  }
 }
 
 img {
@@ -66,7 +69,7 @@ nav {
     color: $white;
     margin-left: 1rem;
     display: inline-block;
-    
+
     &::after {
       pointer-events: none;
       content: '';
@@ -92,14 +95,19 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+ul,
+li {
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0 0 2rem 0;
   font-family: $font-family-headings;
   line-height: 1.4;
@@ -118,8 +126,17 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
 p {
   margin-bottom: 1rem;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 a {
@@ -148,10 +165,14 @@ a {
 
 .grid-row {
   display: flex;
-  align-items: flex-start;
-  justify-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
   flex-flow: row nowrap;
   gap: 4rem;
+
+  &.gap-small {
+    gap: 1rem;
+  }
 
   .grid-cell {
     flex: auto;
@@ -243,6 +264,10 @@ a {
   font-size: 0.8rem;
 }
 
+.text-large {
+  font-size: 1.2rem;
+}
+
 .text-bold {
   font-weight: $font-bold;
 }
@@ -257,6 +282,19 @@ a {
 
 .line-height-12 {
   line-height: 1.2 !important;
+}
+
+.max-width-600px {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.border-top {
+  border-top: $line;
+}
+
+.border-bottom {
+  border-bottom: $line;
 }
 
 // *** OTHER *** //

@@ -90,7 +90,7 @@ pre {
   position: relative;
   text-transform: uppercase;
   font-size: $font-size-small;
-  color: $secondary;
+  color: $primary;
   margin: 0;
   letter-spacing: 0.08rem;
   padding-left: 3rem;
@@ -98,7 +98,7 @@ pre {
   &::after {
     content: '';
     height: 1px;
-    background-color: $secondary;
+    background-color: $primary;
     width: 2rem;
     position: absolute;
     top: 0.6rem;
@@ -106,16 +106,47 @@ pre {
   }
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    padding: 0 0;
+    font-weight: $font-regular;
+    color: rgba(white, 0.6);
+    font-size: 0.9rem;
+    gap: 0.25rem;
+
+    .material-icons {
+      font-size: 16px;
+      width: 16px;
+      padding-top: 0.4rem;
+    }
+  }
+}
+
 section {
   .section-image {
     min-width: 280px;
   }
+
   &.cta {
     padding: 12rem 0;
     background: $contrast url('/assets/images/background-texture-leafs.jpg')
       no-repeat;
-    margin: 0 -1rem;
-    width: calc(100% + 2rem);
+    margin: 0 -2rem;
+    width: calc(100% + 4rem);
+    
+    @media (max-width: $breakpoint-small) {
+      width: calc(100% + 2rem);
+      padding: 1rem 0;
+      margin: 0 -1rem;
+    }
 
     .section-content {
       text-align: center;
@@ -123,6 +154,11 @@ section {
       background-color: rgba(white, 0.05);
       padding: 4rem;
       max-width: 60%;
+
+      @media (max-width: $breakpoint-small) {
+        padding: 1rem;
+        max-width: calc(100% - 2rem);
+      }
     }
   }
 }
@@ -139,6 +175,43 @@ section {
       left: -2.3rem;
       transform: rotate(-35deg);
       max-width: 250px;
+    }
+  }
+}
+
+.blur-box {
+  background-color: rgba(white, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 2rem;
+
+  .material-icons {
+    font-size: 40px;
+    color: $secondary;
+  }
+
+  p {
+    color: rgba(white, 0.6);
+    line-height: 1.5;
+  }
+}
+
+.packages {
+  margin-top: 4rem;
+
+  .package {
+    border-right: $line;
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    gap: 1rem;
+
+    &:last-of-type {
+      border-right: none;
+    }
+
+    ul {
+      margin-bottom: 2rem;
     }
   }
 }
