@@ -274,6 +274,9 @@ button:hover {
 .grid-row.gap-small {
   gap: 1rem;
 }
+.grid-row.align-center {
+  align-items: center;
+}
 .grid-row .grid-cell {
   flex: auto;
   width: 100%;
@@ -800,7 +803,7 @@ ul li .material-icons {
 }
 
 section .section-image {
-  min-width: 280px;
+  width: 480px;
 }
 section.cta {
   padding: 12rem 0;
@@ -908,8 +911,11 @@ a.blur-box:hover {
   justify-content: flex-start;
   flex-flow: column wrap;
 }
-.benefits-container .benefit img {
-  max-width: 96px;
+.benefits-container .benefit .material-icons {
+  height: 48px;
+  width: 48px;
+  font-size: 48px;
+  color: #0A958E;
 }
 
 .background-image {

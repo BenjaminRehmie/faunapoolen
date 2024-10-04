@@ -131,7 +131,7 @@ ul {
 
 section {
   .section-image {
-    min-width: 280px;
+    width: 480px;
   }
 
   &.cta {
@@ -251,8 +251,11 @@ a.blur-box {
     justify-content: flex-start;
     flex-flow: column wrap;
 
-    img {
-      max-width: 96px;
+    .material-icons {
+      height: 48px;
+      width: 48px;
+      font-size: 48px;
+      color: $secondary;
     }
   }
 }
