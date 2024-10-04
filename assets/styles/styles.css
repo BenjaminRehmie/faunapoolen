@@ -216,20 +216,35 @@ form input[type=text],
 form input[type=email],
 form textarea {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 1rem;
   outline: none;
   color: #ffffff;
+  backdrop-filter: blur(8px);
+  border-radius: 3px;
+}
+form textarea {
+  height: 200px;
+}
+form ::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1; /* Firefox */
 }
 
 button {
+  transition: all 0.3s ease;
   background-color: #00a1e4;
   border: none;
   border-radius: 300px;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   cursor: pointer;
+  font-weight: 700;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: #18bbff;
 }
 
 .button {

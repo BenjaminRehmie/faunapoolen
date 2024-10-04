@@ -228,21 +228,40 @@ form {
   input[type='email'],
   textarea {
     width: 100%;
-    background-color: rgba(white, 0.2);
-    padding: 0.5rem 1rem;
+    background-color: rgba(black, 0.5);
+    padding: 1rem;
     border: 1px solid rgba(white, 0.2);
     margin-bottom: 1rem;
     outline: none;
     color: $white;
+    backdrop-filter: blur(8px);
+  border-radius: 3px;
+
   }
+
+  textarea {
+    height: 200px;
+  }
+
+  ::placeholder {
+  color: rgba(white, 0.3);
+  opacity: 1; /* Firefox */
+}
 }
 
 button {
+  transition: all 0.3s ease;
   background-color: $primary;
   border: none;
   border-radius: 300px;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   cursor: pointer;
+  font-weight: $font-bold;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: lighten($primary, 10%);
+  }
 }
 
 .button {
