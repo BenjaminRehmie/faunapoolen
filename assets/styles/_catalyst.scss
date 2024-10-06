@@ -88,10 +88,11 @@ nav {
   label {
     position: relative;
     z-index: 999;
-    .material-icons {
-      height: 32px;
-      width: 32px;
-      font-size: 32px;
+
+    .material-symbols-outlined {
+      height: 40px;
+      width: 40px;
+      font-size: 40px;
       display: block;
       cursor: pointer;
 

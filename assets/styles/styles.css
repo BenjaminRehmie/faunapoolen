@@ -89,15 +89,15 @@ nav label {
   position: relative;
   z-index: 999;
 }
-nav label .material-icons {
-  height: 32px;
-  width: 32px;
-  font-size: 32px;
+nav label .material-symbols-outlined {
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
   display: block;
   cursor: pointer;
 }
 @media (min-width: 640px) {
-  nav label .material-icons {
+  nav label .material-symbols-outlined {
     display: none;
   }
 }
