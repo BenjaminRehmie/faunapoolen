@@ -270,6 +270,16 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/logo-aquascape.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/logo-aquascape.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/images\/logo.png" : {
       "ft" : 32768,
       "iS" : 81851,
@@ -333,6 +343,19 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/section-background-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 30579828,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/section-background-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/wolfie_1979_photo_of_closeup_on_dark_leaves_creating_a_texture._413c293e-70e5-4964-b696-1fa1182d7f8b.png" : {

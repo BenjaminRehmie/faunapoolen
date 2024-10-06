@@ -28,10 +28,18 @@ img {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 5rem 0;
+
+  &.background {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 -2rem;
+    width: calc(100% + 4rem);
+  }
 
   @media (max-width: $breakpoint-small) {
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
 
   .section-content {
@@ -41,15 +49,27 @@ section {
 }
 
 footer {
-  max-width: $page-max-width;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-flow: row nowrap;
-  gap: 1rem;
-  color: rgba(white, 0.5);
-  border-top: $line;
+  background-color: darken($contrast, 3%);
+  margin: 0 -2rem;
+  width: calc(100% + 4rem);
+
+  .footer-content {
+    max-width: $page-max-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    color: rgba(white, 0.2);
+    font-size: 0.8rem;
+    padding: 1rem 0;
+
+    @media (max-width: $breakpoint-small) {
+      flex-flow: column nowrap;
+      text-align: center;
+    }
+  }
 }
 
 nav {
@@ -226,7 +246,10 @@ table {
 form {
   input[type='text'],
   input[type='email'],
-  textarea {
+  textarea,
+  input[type='text']:active,
+  input[type='email']:active,
+  textarea:active {
     width: 100%;
     background-color: rgba(black, 0.5);
     padding: 1rem;
@@ -235,8 +258,11 @@ form {
     outline: none;
     color: $white;
     backdrop-filter: blur(8px);
-  border-radius: 3px;
+    border-radius: 3px;
 
+    &:hover {
+      border: 1px solid rgba(white, 0.3);
+    }
   }
 
   textarea {
@@ -244,23 +270,35 @@ form {
   }
 
   ::placeholder {
-  color: rgba(white, 0.3);
-  opacity: 1; /* Firefox */
+    color: rgba(white, 0.3);
+    opacity: 1; /* Firefox */
+  }
 }
+
+q {
+  font-size: 2rem;
+  text-align: center;
+  font-family: $font-family-headings;
+  font-weight: $font-light;
+
+  @media (max-width: $breakpoint-small) {
+    font-size: 1.4rem;
+  }
 }
 
 button {
   transition: all 0.3s ease;
-  background-color: $primary;
+  background-color: $accent;
   border: none;
   border-radius: 300px;
   padding: 0.6rem 1rem;
   cursor: pointer;
   font-weight: $font-bold;
   border-radius: 3px;
+  color: $contrast;
 
   &:hover {
-    background-color: lighten($primary, 10%);
+    background-color: lighten($accent, 10%);
   }
 }
 
@@ -289,6 +327,7 @@ button {
   justify-content: flex-start;
   flex-flow: row nowrap;
   gap: 4rem;
+  width: 100%;
 
   &.gap-small {
     gap: 1rem;
@@ -299,8 +338,12 @@ button {
   }
 
   .grid-cell {
-    flex: auto;
-    width: 100%;
+    flex: 1 1 0%;
+    width: min-content;
+
+    @media (max-width: $breakpoint-small) {
+      width: 100%;
+    }
   }
 
   @media (max-width: $breakpoint-small) {
@@ -381,7 +424,7 @@ button {
 // TEXT STYLING
 
 .text-discreet {
-  color: rgba(black, 0.3);
+  color: rgba(white, 0.4);
 }
 
 .text-small {
