@@ -332,6 +332,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/mood-image-winter-bath.jpg" : {
+      "ft" : 16384,
+      "iS" : 52291,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/mood-image-winter-bath.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/section-background-1.jpg" : {
       "ft" : 16384,
       "iS" : 30579828,
@@ -450,6 +463,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blog\/index.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/how-filtering-works-with-nature-pools.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/how-filtering-works-with-nature-pools.html",
       "oF" : 0
     },
     "\/blog\/posts\/why-you-should-get-a-natural-pool.html" : {
