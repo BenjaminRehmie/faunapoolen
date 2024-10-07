@@ -48,105 +48,105 @@ section {
   }
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: $nav-height;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-flow: row nowrap;
-  gap: 1rem;
-  padding: 0 1rem;
+// nav {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   height: $nav-height;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   flex-flow: row nowrap;
+//   gap: 1rem;
+//   padding: 0 1rem;
 
-  label {
-    position: relative;
-    z-index: 999;
+//   label {
+//     position: relative;
+//     z-index: 999;
 
-    .material-symbols-outlined {
-      height: 40px;
-      width: 40px;
-      font-size: 40px;
-      display: block;
-      cursor: pointer;
+//     .material-symbols-outlined {
+//       height: 40px;
+//       width: 40px;
+//       font-size: 40px;
+//       display: block;
+//       cursor: pointer;
 
-      @media (min-width: $breakpoint-small) {
-        display: none;
-      }
-    }
-  }
+//       @media (min-width: $breakpoint-small) {
+//         display: none;
+//       }
+//     }
+//   }
 
-  .menu {
-    @media (max-width: $breakpoint-small) {
-      transition: right 0.5s $cubic-bezier-ease-out;
-      position: fixed;
-      right: -280px;
-      top: 0;
-      height: 100vh;
-      width: 280px;
-      background-color: $contrast;
-      padding-top: $nav-height;
-      z-index: 1;
-    }
-  }
+//   .menu {
+//     @media (max-width: $breakpoint-small) {
+//       transition: right 0.5s $cubic-bezier-ease-out;
+//       position: fixed;
+//       right: -280px;
+//       top: 0;
+//       height: 100vh;
+//       width: 280px;
+//       background-color: $contrast;
+//       padding-top: $nav-height;
+//       z-index: 1;
+//     }
+//   }
 
-  .menu-overlay {
-    display: none;
-  }
+//   .menu-overlay {
+//     display: none;
+//   }
 
-  input[type='checkbox'] {
-    display: none;
+//   input[type='checkbox'] {
+//     display: none;
 
-    &:checked {
-      & ~ .menu {
-        right: 0;
-      }
+//     &:checked {
+//       & ~ .menu {
+//         right: 0;
+//       }
 
-      & ~ .menu-overlay {
-        display: block;
-        background-color: rgba(black, 0.6);
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        height: 100vh;
-      }
-    }
-  }
+//       & ~ .menu-overlay {
+//         display: block;
+//         background-color: rgba(black, 0.6);
+//         position: fixed;
+//         top: 0;
+//         right: 0;
+//         left: 0;
+//         height: 100vh;
+//       }
+//     }
+//   }
 
-  a {
-    position: relative;
-    color: $white;
-    margin-left: 1rem;
-    display: inline-block;
+//   a {
+//     position: relative;
+//     color: $white;
+//     margin-left: 1rem;
+//     display: inline-block;
 
-    @media (max-width: $breakpoint-small) {
-      display: block;
-      margin: 1rem;
-    }
+//     @media (max-width: $breakpoint-small) {
+//       display: block;
+//       margin: 1rem;
+//     }
 
-    &::after {
-      pointer-events: none;
-      content: '';
-      background-color: $white;
-      height: 1px;
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      right: 50%;
-      transition: all 0.3s $cubic-bezier-ease-out;
-    }
+//     &::after {
+//       pointer-events: none;
+//       content: '';
+//       background-color: $white;
+//       height: 1px;
+//       position: absolute;
+//       bottom: 0;
+//       left: 50%;
+//       right: 50%;
+//       transition: all 0.3s $cubic-bezier-ease-out;
+//     }
 
-    &:hover {
-      &::after {
-        left: 0;
-        right: 0;
-      }
-    }
-  }
-}
+//     &:hover {
+//       &::after {
+//         left: 0;
+//         right: 0;
+//       }
+//     }
+//   }
+// }
 
 h1,
 h2,

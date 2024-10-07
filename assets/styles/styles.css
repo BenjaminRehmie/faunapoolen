@@ -48,94 +48,6 @@ section .section-content {
   margin: 0 auto;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-flow: row nowrap;
-  gap: 1rem;
-  padding: 0 1rem;
-}
-nav label {
-  position: relative;
-  z-index: 999;
-}
-nav label .material-symbols-outlined {
-  height: 40px;
-  width: 40px;
-  font-size: 40px;
-  display: block;
-  cursor: pointer;
-}
-@media (min-width: 640px) {
-  nav label .material-symbols-outlined {
-    display: none;
-  }
-}
-@media (max-width: 640px) {
-  nav .menu {
-    transition: right 0.5s cubic-bezier(0.17, 0.67, 0.23, 1);
-    position: fixed;
-    right: -280px;
-    top: 0;
-    height: 100vh;
-    width: 280px;
-    background-color: #001e29;
-    padding-top: 64px;
-    z-index: 1;
-  }
-}
-nav .menu-overlay {
-  display: none;
-}
-nav input[type=checkbox] {
-  display: none;
-}
-nav input[type=checkbox]:checked ~ .menu {
-  right: 0;
-}
-nav input[type=checkbox]:checked ~ .menu-overlay {
-  display: block;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 100vh;
-}
-nav a {
-  position: relative;
-  color: #ffffff;
-  margin-left: 1rem;
-  display: inline-block;
-}
-@media (max-width: 640px) {
-  nav a {
-    display: block;
-    margin: 1rem;
-  }
-}
-nav a::after {
-  pointer-events: none;
-  content: "";
-  background-color: #ffffff;
-  height: 1px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  right: 50%;
-  transition: all 0.3s cubic-bezier(0.17, 0.67, 0.23, 1);
-}
-nav a:hover::after {
-  left: 0;
-  right: 0;
-}
-
 h1,
 h2,
 h3,
@@ -1037,49 +949,114 @@ header pre {
 }
 
 nav {
-  color: #ffffff;
-  transition: all 0.4s ease;
+  height: 64px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 2rem;
+}
+@media (max-width: 640px) {
+  nav {
+    padding: 0 1rem;
+  }
 }
 nav.header-scrolled {
   background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(16px);
 }
-nav .logo {
-  transition: all 0.3s ease;
+nav .nav-container {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+}
+nav .nav-container label {
+  position: relative;
+  z-index: 999;
+}
+nav .nav-container label .material-symbols-outlined {
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  display: block;
+  cursor: pointer;
+}
+@media (min-width: 640px) {
+  nav .nav-container label .material-symbols-outlined {
+    display: none;
+  }
+}
+nav .nav-container input[type=checkbox] {
+  display: none;
+}
+nav .nav-container input[type=checkbox]:checked ~ .menu {
+  right: -1rem;
+}
+nav .nav-container input[type=checkbox]:checked ~ .menu-overlay {
+  display: block;
+}
+nav .nav-container .menu-overlay {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1;
+  display: none;
+}
+nav .nav-container .logo {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: -0.5rem;
+  width: 100px;
+  padding: 1.5rem 0.5rem 1rem 0.5rem;
+}
+@media (max-width: 640px) {
+  nav .nav-container .logo {
+    width: 80px;
+  }
+}
+nav .nav-container .nav-menu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+nav .nav-container .nav-menu .menu {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row nowrap;
   gap: 1rem;
-  position: relative;
-  top: 0.3rem;
-  left: -1rem;
-  max-width: 100px;
-  background-color: #ffffff;
-  padding: 2rem 0.5rem 1rem 0.5rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-  font-size: 0;
 }
-nav .logo:hover {
-  transform: translateY(0.5rem);
+nav .nav-container .nav-menu .menu a {
+  color: #ffffff;
 }
 @media (max-width: 640px) {
-  nav .logo {
-    max-width: 80px;
-    top: -0.2rem;
-    left: -0.9rem;
+  nav .nav-container .nav-menu .menu {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: right 0.5s cubic-bezier(0.17, 0.67, 0.23, 1);
+    position: absolute;
+    right: -300px;
+    top: 0;
+    height: 100vh;
+    width: 280px;
+    background-color: #001e29;
+    padding-top: 64px;
+    padding: 1rem;
+    z-index: 1;
+    padding-top: 4rem;
   }
-}
-nav .nav-container {
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-flow: row nowrap;
-  gap: 1rem;
 }
 
 h1,

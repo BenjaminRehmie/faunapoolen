@@ -146,23 +146,24 @@
 
 <nav class="navigation">
   <div class="nav-container">
+    <div class="nav-menu">
+      <label for="menu-state" tabindex="0">
+        <span class="material-symbols-outlined">menu</span>
+      </label>
+      <input id="menu-state" name="menu-state" type="checkbox" />
+      <div class="menu-overlay"></div>
+      <div class="menu">
+        <a href="/">Start</a>
+        <a href="/services/">Tjänster</a>
+        <a href="/pricing/">Priser</a>
+        <a href="/blog/">Blogg</a>
+        <a href="/contact/" class="button">Få ett prisförslag</a>
+      </div>
+    </div>
+
     <a href="/" class="logo">
       <img src="/assets/images/logo.png" alt="" />
     </a>
-    <div>
-      <label for="menu" tabindex="0">
-        <span class="material-symbols-outlined">menu</span>
-      </label>
-      <input id="menu" type="checkbox" />
-      <div class="menu">
-        <!-- <a href="/">Start</a> -->
-        <!-- <a href="/services/">Tjänster</a> -->
-        <!-- <a href="/pricing/">Priser</a> -->
-        <!-- <a href="/blog/">Blogg</a> -->
-        <a href="/contact/" class="button">Få ett prisförslag</a>
-      </div>
-      <div class="menu-overlay"></div>
-    </div>
   </div>
 </nav>
 
