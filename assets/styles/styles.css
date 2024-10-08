@@ -1226,6 +1226,10 @@ a.blur-box:hover {
   flex-flow: column nowrap;
   gap: 1rem;
 }
+.packages .package p {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
 .packages .package:last-of-type {
   border-right: none;
 }

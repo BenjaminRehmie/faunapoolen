@@ -399,6 +399,11 @@ a.blur-box {
     flex-flow: column nowrap;
     gap: 1rem;
 
+    p {
+      margin-bottom: 1rem;
+      font-size: 0.8rem;
+    }
+
     &:last-of-type {
       border-right: none;
     }
