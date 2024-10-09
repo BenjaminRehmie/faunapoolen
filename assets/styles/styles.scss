@@ -399,6 +399,12 @@ a.blur-box {
     flex-flow: column nowrap;
     gap: 1rem;
 
+    @media (max-width: $breakpoint-small) {
+      border-right: none;
+      border-bottom: $line;
+      padding-bottom: 1rem;
+    }
+
     p {
       margin-bottom: 1rem;
       font-size: 0.8rem;
