@@ -398,11 +398,13 @@ a.blur-box {
     justify-content: space-between;
     flex-flow: column nowrap;
     gap: 1rem;
+    padding-right: 1rem;
 
     @media (max-width: $breakpoint-small) {
       border-right: none;
       border-bottom: $line;
       padding-bottom: 1rem;
+      padding-right: 1rem;
     }
 
     p {
