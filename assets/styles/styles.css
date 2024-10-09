@@ -1215,6 +1215,13 @@ a.blur-box:hover {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
 .packages {
   margin-top: 4rem;
 }

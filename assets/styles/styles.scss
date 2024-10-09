@@ -388,6 +388,13 @@ a.blur-box {
   }
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
 .packages {
   margin-top: 4rem;
 
