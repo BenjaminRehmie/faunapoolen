@@ -277,22 +277,38 @@ footer {
   background-color: darken($contrast, 3%);
   margin: 0 -2rem;
   width: calc(100% + 4rem);
+  padding: 0 2rem;
+
+  a {
+    color: rgba(white, 0.8);
+
+    &:hover {
+      color: $white;
+    }
+  }
 
   .footer-content {
     max-width: $page-max-width;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-flow: row nowrap;
     gap: 1rem;
-    color: rgba(white, 0.2);
+    color: rgba(white, 0.3);
     font-size: 0.8rem;
     padding: 1rem 0;
 
-    @media (max-width: $breakpoint-small) {
+    & > div {
+      flex: 1 1 auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
       flex-flow: column nowrap;
-      text-align: center;
+
+      &:last-child {
+        align-items: flex-end;
+      }
     }
   }
 }

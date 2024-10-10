@@ -1111,24 +1111,35 @@ footer {
   background-color: #00131a;
   margin: 0 -2rem;
   width: calc(100% + 4rem);
+  padding: 0 2rem;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.8);
+}
+footer a:hover {
+  color: #ffffff;
 }
 footer .footer-content {
   max-width: 1024px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   flex-flow: row nowrap;
   gap: 1rem;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.3);
   font-size: 0.8rem;
   padding: 1rem 0;
 }
-@media (max-width: 640px) {
-  footer .footer-content {
-    flex-flow: column nowrap;
-    text-align: center;
-  }
+footer .footer-content > div {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+}
+footer .footer-content > div:last-child {
+  align-items: flex-end;
 }
 
 section .section-image {
