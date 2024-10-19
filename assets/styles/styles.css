@@ -105,7 +105,7 @@ p:last-of-type {
 }
 
 a {
-  color: #f39568;
+  color: #FF9F71;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -170,7 +170,7 @@ q {
 
 button {
   transition: all 0.3s ease;
-  background-color: #f39568;
+  background-color: #FF9F71;
   border: none;
   border-radius: 300px;
   padding: 0.6rem 1rem;
@@ -180,7 +180,7 @@ button {
   color: #001e29;
 }
 button:hover {
-  background-color: #f7b697;
+  background-color: #ffc1a4;
 }
 
 .button {
@@ -890,15 +890,15 @@ button:hover {
 }
 
 .color-primary {
-  color: #00a1e4;
+  color: #00A1E4;
 }
 
 .color-secondary {
-  color: #0a958e;
+  color: #00D3C8;
 }
 
 .color-accent {
-  color: #f39568;
+  color: #FF9F71;
 }
 
 body {
@@ -1070,7 +1070,7 @@ pre {
   position: relative;
   text-transform: uppercase;
   font-size: 0.8rem;
-  color: #00a1e4;
+  color: #00A1E4;
   margin: 0;
   letter-spacing: 0.08rem;
   padding-left: 3rem;
@@ -1078,7 +1078,7 @@ pre {
 pre::after {
   content: "";
   height: 1px;
-  background-color: #00a1e4;
+  background-color: #00A1E4;
   width: 2rem;
   position: absolute;
   top: 0.6rem;
@@ -1210,7 +1210,7 @@ a.blur-box:hover {
 }
 .blur-box .material-symbols-outlined {
   font-size: 48px;
-  color: #0a958e;
+  color: #00D3C8;
   margin-bottom: 1rem;
   display: inline-block;
 }
@@ -1288,7 +1288,7 @@ a.blur-box:hover {
   height: 40px;
   width: 48px;
   font-size: 48px;
-  color: #0a958e;
+  color: #00D3C8;
   margin-bottom: 10px;
   display: inline-block;
 }
