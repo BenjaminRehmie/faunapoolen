@@ -1245,12 +1245,18 @@ a.blur-box:hover {
   gap: 1rem;
   padding-right: 1rem;
 }
+.packages .package img {
+  max-height: 240px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
 @media (max-width: 640px) {
   .packages .package {
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     padding-bottom: 1rem;
-    padding-right: 1rem;
+    padding-right: 0;
   }
 }
 .packages .package p {
