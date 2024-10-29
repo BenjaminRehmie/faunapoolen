@@ -153,7 +153,8 @@ form textarea {
 }
 form ::placeholder {
   color: rgba(255, 255, 255, 0.3);
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 q {
@@ -184,6 +185,7 @@ button:hover {
 }
 
 .button {
+  color: #ffffff;
   transition: all 0.3s ease;
   display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -1153,6 +1155,7 @@ section .section-image {
 section.cta {
   padding: 12rem 0;
   background: #001e29 url("/assets/images/background-texture-leafs.jpg") no-repeat;
+  background-size: cover;
   margin: 5rem -2rem 0 -2rem;
   width: calc(100% + 4rem);
 }
@@ -1206,6 +1209,18 @@ a.blur-box:hover {
 @media (max-width: 640px) {
   .blur-box {
     padding: 1rem;
+  }
+}
+.blur-box img {
+  margin: -2rem -2rem 1rem -2rem;
+  min-width: calc(100% + 4rem);
+  object-fit: cover;
+  max-height: 220px;
+}
+@media (max-width: 640px) {
+  .blur-box img {
+    margin: -1rem -1rem 1rem -1rem;
+    min-width: calc(100% + 2rem);
   }
 }
 .blur-box .material-symbols-outlined {

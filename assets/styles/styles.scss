@@ -325,6 +325,7 @@ section {
   &.cta {
     padding: 12rem 0;
     background: $contrast url('/assets/images/background-texture-leafs.jpg') no-repeat;
+    background-size: cover;
     margin: 5rem -2rem 0 -2rem;
     width: calc(100% + 4rem);
 
@@ -380,6 +381,18 @@ a.blur-box {
 
   @media (max-width: $breakpoint-small) {
     padding: 1rem;
+  }
+
+  img {
+    margin: -2rem -2rem 1rem -2rem;
+    min-width: calc(100% + 4rem);
+    object-fit: cover;
+    max-height: 220px;
+
+    @media (max-width: $breakpoint-small) {
+      margin: -1rem -1rem 1rem -1rem;
+      min-width: calc(100% + 2rem);
+    }
   }
 
   .material-symbols-outlined {

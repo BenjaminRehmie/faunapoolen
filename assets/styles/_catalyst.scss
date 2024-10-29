@@ -126,6 +126,7 @@ table {
 }
 
 form {
+
   input[type='text'],
   input[type='email'],
   textarea,
@@ -153,7 +154,8 @@ form {
 
   ::placeholder {
     color: rgba(white, 0.3);
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
   }
 }
 
@@ -185,6 +187,7 @@ button {
 }
 
 .button {
+  color: $white;
   transition: all 0.3s ease;
   display: inline-block;
   border: 1px solid rgba(white, 0.5);
@@ -239,24 +242,31 @@ button {
   .mt-#{$i} {
     margin-top: $i + rem !important;
   }
+
   .mr-#{$i} {
     margin-right: $i + rem !important;
   }
+
   .mb-#{$i} {
     margin-bottom: $i + rem !important;
   }
+
   .ml-#{$i} {
     margin-left: $i + rem !important;
   }
+
   .pt-#{$i} {
     padding-top: $i + rem !important;
   }
+
   .pr-#{$i} {
     padding-right: $i + rem !important;
   }
+
   .pb-#{$i} {
     padding-bottom: $i + rem !important;
   }
+
   .pl-#{$i} {
     padding-left: $i + rem !important;
   }
@@ -266,24 +276,31 @@ button {
   .mt-bps-#{$i} {
     margin-top: $i + rem !important;
   }
+
   .mr-bps-#{$i} {
     margin-right: $i + rem !important;
   }
+
   .mb-bps-#{$i} {
     margin-bottom: $i + rem !important;
   }
+
   .ml-bps-#{$i} {
     margin-left: $i + rem !important;
   }
+
   .pt-bps-#{$i} {
     padding-top: $i + rem !important;
   }
+
   .pr-bps-#{$i} {
     padding-right: $i + rem !important;
   }
+
   .pb-bps-#{$i} {
     padding-bottom: $i + rem !important;
   }
+
   .pl-bps-#{$i} {
     padding-left: $i + rem !important;
   }
@@ -293,6 +310,7 @@ button {
   .m-#{$i} {
     margin: $i + rem !important;
   }
+
   .p-#{$i} {
     padding: $i + rem !important;
   }
