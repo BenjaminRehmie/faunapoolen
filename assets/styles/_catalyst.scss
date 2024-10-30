@@ -214,6 +214,13 @@ button {
   gap: 4rem;
   width: 100%;
 
+  &.grid-3-columns {
+    .grid-cell {
+      flex: 1 1 33.3333333%;
+      max-width: calc(33.3333333% - 1rem);
+    }
+  }
+
   &.gap-small {
     gap: 1rem;
   }
