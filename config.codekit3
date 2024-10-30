@@ -496,7 +496,7 @@
       "oAP" : "\/assets\/images\/services\/fountains.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -509,7 +509,7 @@
       "oAP" : "\/assets\/images\/services\/koi-ponds.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -522,7 +522,7 @@
       "oAP" : "\/assets\/images\/services\/pondless-waterfalls.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -535,7 +535,7 @@
       "oAP" : "\/assets\/images\/services\/swim-ponds.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -548,7 +548,7 @@
       "oAP" : "\/assets\/images\/services\/water-storage.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
