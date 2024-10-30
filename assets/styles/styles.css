@@ -214,6 +214,11 @@ button:hover {
   flex: 1 1 33.3333333%;
   max-width: calc(33.3333333% - 1rem);
 }
+@media (max-width: 640px) {
+  .grid-row.grid-3-columns .grid-cell {
+    max-width: 100%;
+  }
+}
 .grid-row.gap-small {
   gap: 1rem;
 }

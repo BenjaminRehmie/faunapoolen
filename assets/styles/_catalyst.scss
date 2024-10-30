@@ -218,6 +218,10 @@ button {
     .grid-cell {
       flex: 1 1 33.3333333%;
       max-width: calc(33.3333333% - 1rem);
+
+      @media (max-width: $breakpoint-small) {
+        max-width: 100%;
+      }
     }
   }
 
