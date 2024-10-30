@@ -410,14 +410,18 @@ button {
   }
 }
 
+.color-white {
+  color: $white !important;
+}
+
 .color-primary {
-  color: $primary;
+  color: $primary !important;
 }
 
 .color-secondary {
-  color: $secondary;
+  color: $secondary !important;
 }
 
 .color-accent {
-  color: $accent;
+  color: $accent !important;
 }

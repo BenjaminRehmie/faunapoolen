@@ -368,6 +368,27 @@ a.blur-box {
   }
 }
 
+.number {
+  height: 52px;
+  width: 52px;
+  border-radius: 100%;
+  border: 1px solid $secondary;
+  color: $secondary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  line-height: 1;
+  float: left;
+  font-size: 1.2rem;
+  font-weight: $font-regular;
+  font-family: $font-family-headings;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 .blur-box {
   background-color: rgba(white, 0.1);
   backdrop-filter: blur(8px);
