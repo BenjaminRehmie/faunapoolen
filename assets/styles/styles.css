@@ -1386,6 +1386,9 @@ section.blog-post img {
   object-fit: cover;
   margin: 2rem 0;
 }
+section.blog-post h2 {
+  margin-top: 3rem;
+}
 section.blog-post ul {
   list-style-type: initial;
   padding: 0 0 0 1rem;
