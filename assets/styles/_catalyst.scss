@@ -182,7 +182,7 @@ button {
   color: $contrast;
 
   &:hover {
-    background-color: lighten($accent, 10%);
+    background-color: $accent-lighten;
   }
 }
 
