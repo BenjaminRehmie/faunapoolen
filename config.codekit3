@@ -434,6 +434,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/og-image.png" : {
+      "ft" : 32768,
+      "iS" : 90140,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/og-image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/pricing\/damm-koi.jpg" : {
       "ft" : 16384,
       "iS" : 219667,
