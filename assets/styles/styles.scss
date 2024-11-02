@@ -47,8 +47,9 @@ header {
   }
 
   a {
+    color: $white;
     transition: all 0.3 ease;
-    background-color: rgba(white, 0.08);
+    background-color: rgba(white, 0.1);
     padding: 0.1rem 0.75rem 0.1rem 0.5rem;
     border-radius: 300px;
 
@@ -380,8 +381,8 @@ a.blur-box {
 }
 
 .number {
-  height: 52px;
-  width: 52px;
+  min-height: 52px;
+  min-width: 52px;
   border-radius: 100%;
   border: 1px solid $secondary;
   color: $secondary;
@@ -398,6 +399,23 @@ a.blur-box {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+.custom-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  gap: 1rem;
+
+  &>* {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    gap: 1rem;
+  }
+
 }
 
 .blur-box {
@@ -633,7 +651,6 @@ section.blog-post {
     justify-content: space-between;
     flex-flow: column nowrap;
     gap: 1rem;
-    border-bottom: $line;
     padding: 2rem;
     background-color: rgba(white, 0.08);
     backdrop-filter: blur(16px);

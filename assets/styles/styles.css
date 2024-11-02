@@ -172,32 +172,31 @@ q {
 
 button {
   transition: all 0.3s ease;
-  background-color: #FF9F71;
+  background-color: rgba(0, 161, 228, 0.4);
   border: none;
   border-radius: 300px;
   padding: 0.6rem 1rem;
   cursor: pointer;
-  font-weight: 700;
-  border-radius: 3px;
-  color: #001e29;
+  font-weight: 400;
+  border-radius: 300px;
+  color: #ffffff;
 }
 button:hover {
-  background-color: #ffb592;
+  background-color: rgba(0, 161, 228, 0.7);
 }
 
 .button {
   color: #ffffff;
   transition: all 0.3s ease;
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 300px;
   padding: 0.2rem 0.8rem;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 161, 228, 0.4);
   font-size: 0.8rem;
 }
 .button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 161, 228, 0.7);
 }
 .button:after {
   display: none;
@@ -960,8 +959,9 @@ header p {
   }
 }
 header a {
+  color: #ffffff;
   transition: all 0.3 ease;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 0.1rem 0.75rem 0.1rem 0.5rem;
   border-radius: 300px;
 }
@@ -1219,8 +1219,8 @@ a.blur-box:hover {
 }
 
 .number {
-  height: 52px;
-  width: 52px;
+  min-height: 52px;
+  min-width: 52px;
   border-radius: 100%;
   border: 1px solid #00D3C8;
   color: #00D3C8;
@@ -1237,6 +1237,21 @@ a.blur-box:hover {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+.custom-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+.custom-list > * {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+  gap: 1rem;
 }
 
 .blur-box {
@@ -1457,7 +1472,6 @@ section.blog-post p {
   justify-content: space-between;
   flex-flow: column nowrap;
   gap: 1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   padding: 2rem;
   background-color: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(16px);

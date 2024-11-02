@@ -173,17 +173,17 @@ q {
 
 button {
   transition: all 0.3s ease;
-  background-color: $accent;
+  background-color: rgba($primary, 0.4);
   border: none;
   border-radius: 300px;
   padding: 0.6rem 1rem;
   cursor: pointer;
-  font-weight: $font-bold;
-  border-radius: 3px;
-  color: $contrast;
+  font-weight: $font-regular;
+  border-radius: 300px;
+  color: $white;
 
   &:hover {
-    background-color: $accent-lighten;
+    background-color: rgba($primary, 0.7);
   }
 }
 
@@ -191,15 +191,14 @@ button {
   color: $white;
   transition: all 0.3s ease;
   display: inline-block;
-  border: 1px solid rgba(white, 0.5);
   border-radius: 300px;
   padding: 0.2rem 0.8rem;
   cursor: pointer;
-  background-color: rgba(black, 0.4);
+  background-color: rgba($primary, 0.4);
   font-size: $font-size-button;
 
   &:hover {
-    background-color: rgba(white, 0.2);
+    background-color: rgba($primary, 0.7);
   }
 
   &:after {
