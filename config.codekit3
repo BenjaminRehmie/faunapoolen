@@ -17,6 +17,22 @@
       "oAP" : "\/assets\/components\/_blog-entry.html",
       "oF" : 0
     },
+    "\/assets\/components\/_blog-footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/components\/_blog-footer.html",
+      "oF" : 0
+    },
+    "\/assets\/components\/_blog-header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/components\/_blog-header.html",
+      "oF" : 0
+    },
     "\/assets\/components\/_cta.kit" : {
       "cB" : 0,
       "ft" : 2048,
