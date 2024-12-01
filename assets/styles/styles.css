@@ -195,6 +195,13 @@ button:hover {
   background-color: rgba(0, 161, 228, 0.4);
   font-size: 0.8rem;
 }
+.button.button-large {
+  background-color: #FF9F71;
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+}
 .button:hover {
   background-color: rgba(0, 161, 228, 0.7);
 }
