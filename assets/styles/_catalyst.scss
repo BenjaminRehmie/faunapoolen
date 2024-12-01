@@ -429,3 +429,11 @@ button {
 .color-accent {
   color: $accent !important;
 }
+
+hr {
+  width: 100%;
+  border: none;
+  height: 1px;
+  color: rgba(black, 0.08);
+  background-color: rgba(black, 0.08);
+}
