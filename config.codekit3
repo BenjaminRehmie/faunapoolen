@@ -395,6 +395,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/mood-image-chairs-by-pool.jpg" : {
+      "ft" : 16384,
+      "iS" : 184456,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/mood-image-chairs-by-pool.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/mood-image-construction-workers.jpg" : {
       "ft" : 16384,
       "iS" : 202867,
@@ -419,6 +432,32 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/mood-image-girl-in-pool.jpg" : {
+      "ft" : 16384,
+      "iS" : 215410,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/mood-image-girl-in-pool.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/mood-image-palm-pool.jpg" : {
+      "ft" : 16384,
+      "iS" : 331613,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/mood-image-palm-pool.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/mood-image-winter-bath.jpg" : {
@@ -915,6 +954,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/services\/index.html",
+      "oF" : 0
+    },
+    "\/sweden-expert-naturpooler-biopooler-ecopooler-kemikaliefria-pooler-baddammar\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sweden-expert-naturpooler-biopooler-ecopooler-kemikaliefria-pooler-baddammar\/index.html",
       "oF" : 0
     },
     "\/sweden-expert-naturpooler-biopooler-ecopooler-kemikaliefria-pooler-baddammar\/index.kit" : {

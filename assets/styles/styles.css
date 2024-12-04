@@ -91,6 +91,11 @@ h1 {
 h2 {
   font-size: 2rem;
 }
+@media (max-width: 640px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
 
 h3 {
   font-size: 1.3rem;
@@ -196,11 +201,9 @@ button:hover {
   font-size: 0.8rem;
 }
 .button.button-large {
-  background-color: #FF9F71;
-  color: #000000;
   font-weight: 700;
   font-size: 1.2rem;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 2rem;
 }
 .button:hover {
   background-color: rgba(0, 161, 228, 0.7);
@@ -216,6 +219,9 @@ button:hover {
   flex-flow: row nowrap;
   gap: 4rem;
   width: 100%;
+}
+.grid-row.gap-none {
+  gap: 0;
 }
 .grid-row.grid-3-columns .grid-cell {
   flex: 1 1 33.3333333%;
