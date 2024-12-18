@@ -110,14 +110,27 @@ p:last-of-type {
 }
 
 a {
+  transition: all 0.5s ease-out;
   color: #FF9F71;
   text-decoration: none;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: flex-start;
   flex-flow: row nowrap;
   gap: 0.5rem;
   cursor: pointer;
+}
+a .material-symbols-outlined {
+  transition: left 0.2s ease-out;
+  position: relative;
+  top: 2px;
+  left: 0;
+}
+a:hover {
+  color: #ffffff;
+}
+a:hover .material-symbols-outlined {
+  left: 5px;
 }
 
 table {
@@ -197,7 +210,7 @@ button:hover {
   border-radius: 300px;
   padding: 0.2rem 0.8rem;
   cursor: pointer;
-  background-color: rgba(0, 161, 228, 0.4);
+  background-color: #00A1E4;
   font-size: 0.8rem;
 }
 .button.button-large {
@@ -883,7 +896,7 @@ button:hover {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .line-height-1 {

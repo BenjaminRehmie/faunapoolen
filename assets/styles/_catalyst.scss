@@ -109,14 +109,30 @@ p {
 }
 
 a {
+  transition: all 0.5s ease-out;
   color: $accent;
   text-decoration: none;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: flex-start;
   flex-flow: row nowrap;
   gap: 0.5rem;
   cursor: pointer;
+
+  .material-symbols-outlined {
+    transition: left 0.2s ease-out;
+    position: relative;
+    top: 2px;
+    left: 0;
+  }
+
+  &:hover {
+    color: $white;
+
+    .material-symbols-outlined {
+      left: 5px;
+    }
+  }
 }
 
 table {
@@ -199,7 +215,7 @@ button {
   border-radius: 300px;
   padding: 0.2rem 0.8rem;
   cursor: pointer;
-  background-color: rgba($primary, 0.4);
+  background-color: $primary;
   font-size: $font-size-button;
 
   &.button-large {
@@ -397,7 +413,7 @@ button {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .line-height-1 {
