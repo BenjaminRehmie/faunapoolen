@@ -1497,6 +1497,11 @@ section.blog-post p {
   gap: 1rem;
   margin-top: 2rem;
 }
+@media (max-width: 640px) {
+  .blog-posts {
+    flex-flow: column nowrap;
+  }
+}
 .blog-posts > a {
   transition: all 0.3s ease;
   flex: 1 1 auto;
@@ -1511,6 +1516,11 @@ section.blog-post p {
   backdrop-filter: blur(16px);
   color: #ffffff;
   text-align: left;
+}
+@media (max-width: 640px) {
+  .blog-posts > a {
+    max-width: 100%;
+  }
 }
 .blog-posts > a:hover {
   background-color: rgba(255, 255, 255, 0.15);

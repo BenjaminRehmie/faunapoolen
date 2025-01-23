@@ -642,6 +642,10 @@ section.blog-post {
   gap: 1rem;
   margin-top: 2rem;
 
+  @media (max-width: $breakpoint-small) {
+    flex-flow: column nowrap;
+  }
+
   &>a {
     transition: all 0.3s ease;
     flex: 1 1 auto;
@@ -656,6 +660,10 @@ section.blog-post {
     backdrop-filter: blur(16px);
     color: $white;
     text-align: left;
+
+    @media (max-width: $breakpoint-small) {
+      max-width: 100%;
+    }
 
     &:hover {
       background-color: rgba(white, 0.15);
