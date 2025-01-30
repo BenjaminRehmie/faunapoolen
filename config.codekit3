@@ -9,6 +9,22 @@
   ],
   "creatorBuild" : "34592",
   "files" : {
+    "\/about\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about\/index.html",
+      "oF" : 0
+    },
+    "\/about\/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about\/index.html",
+      "oF" : 0
+    },
     "\/assets\/components\/_blog-entry.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -31,6 +47,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/components\/_blog-header.html",
+      "oF" : 0
+    },
+    "\/assets\/components\/_cta-soft.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/components\/_cta-soft.html",
       "oF" : 0
     },
     "\/assets\/components\/_cta.kit" : {
@@ -799,6 +823,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blog\/index.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/5-common-problems-installing-a-nature-pool.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/5-common-problems-installing-a-nature-pool.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/5-common-problems-installing-a-nature-pool.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/5-common-problems-installing-a-nature-pool.html",
       "oF" : 0
     },
     "\/blog\/posts\/algae-control-and-maintenance-tips.html" : {
