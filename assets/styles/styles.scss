@@ -429,6 +429,10 @@ a.blur-box {
   flex-flow: column nowrap;
   gap: 1rem;
 
+  &.box-start {
+    justify-content: flex-start;
+  }
+
   @media (max-width: $breakpoint-small) {
     padding: 1rem;
   }

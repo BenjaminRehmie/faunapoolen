@@ -7,7 +7,7 @@
       "uuidString" : "087C504F-7CD1-4AD0-921B-6BAFCFDF1715"
     }
   ],
-  "creatorBuild" : "34592",
+  "creatorBuild" : "34627",
   "files" : {
     "\/about\/index.html" : {
       "cB" : 0,
@@ -510,6 +510,45 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/portait-lindahl.jpg" : {
+      "ft" : 16384,
+      "iS" : 48548,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/portait-lindahl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/portrait-ben.jpg" : {
+      "ft" : 16384,
+      "iS" : 60852,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/portrait-ben.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/portrait-mikael.jpg" : {
+      "ft" : 16384,
+      "iS" : 57845,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/portrait-mikael.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/pricing\/damm-koi.jpg" : {
       "ft" : 16384,
       "iS" : 219667,
@@ -744,31 +783,27 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/_catalyst.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/_variables.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/normalize.css" : {
       "aP" : 1,
@@ -798,16 +833,14 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/styles\/styles.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/blog\/index.html" : {
       "cB" : 0,
@@ -2472,11 +2505,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -2591,6 +2622,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,

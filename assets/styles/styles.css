@@ -1299,6 +1299,9 @@ a.blur-box:hover {
   flex-flow: column nowrap;
   gap: 1rem;
 }
+.blur-box.box-start {
+  justify-content: flex-start;
+}
 @media (max-width: 640px) {
   .blur-box {
     padding: 1rem;
