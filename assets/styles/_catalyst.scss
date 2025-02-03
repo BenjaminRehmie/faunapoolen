@@ -221,8 +221,13 @@ button {
 
   &.button-large {
     font-weight: $font-bold;
-    font-size: 1.2rem;
+    font-size: $font-size-large;
     padding: 0.5rem 2rem;
+
+    @media (max-width: $breakpoint-small) {
+      font-size: $font-size;
+      padding: 0.2rem 0.8rem;
+    }
   }
 
   &:hover {
@@ -402,7 +407,11 @@ button {
 }
 
 .text-large {
-  font-size: 1.2rem;
+  font-size: $font-size-large;
+
+  @media (max-width: $breakpoint-small) {
+    font-size: $font-size;
+  }
 }
 
 .text-bold {

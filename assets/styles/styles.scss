@@ -642,6 +642,18 @@ section.blog-post {
   }
 }
 
+.blog-post {
+  p {
+    font-size: $font-size-large;
+
+    @media (max-width: $breakpoint-small) {
+      font-size: $font-size;
+    }
+
+    ;
+  }
+}
+
 .blog-posts {
   display: flex;
   align-items: stretch;
