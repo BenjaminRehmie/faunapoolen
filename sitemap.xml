@@ -32,6 +32,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://faunapoolen.se/about/</loc>
+  <lastmod>2024-12-04T11:54:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://faunapoolen.se/blog/</loc>
   <lastmod>2024-12-04T11:54:39+00:00</lastmod>
   <priority>0.80</priority>
@@ -39,7 +44,12 @@
 <url>
   <loc>https://faunapoolen.se/blog/posts/why-you-should-get-a-natural-pool.html</loc>
   <lastmod>2024-12-04T11:54:39+00:00</lastmod>
-  <priority>0.50</priority>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faunapoolen.se/blog/posts/5-common-problems-installing-a-nature-pool.html</loc>
+  <lastmod>2024-12-04T11:54:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://faunapoolen.se/blog/posts/how-filtering-works-with-nature-pools.html</loc>
