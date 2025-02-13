@@ -162,7 +162,7 @@
       "oAP" : "\/assets\/images\/blog\/blog-list-background.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -175,20 +175,7 @@
       "oAP" : "\/assets\/images\/blog\/blog-post-5-problems-with-a-natural-pool.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/blog\/blog-post-faunapoolen-water-storage-solutions.jpg" : {
-      "ft" : 16384,
-      "iS" : 2142576,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/blog\/blog-post-faunapoolen-water-storage-solutions.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -201,7 +188,7 @@
       "oAP" : "\/assets\/images\/blog\/blog-post-how-to-manage-algie.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -214,20 +201,33 @@
       "oAP" : "\/assets\/images\/blog\/blog-post-how-water-is-filtered.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/blog\/blog-post-the difference-between-natural-pool-and-traditional-pool.jpg" : {
+    "\/assets\/images\/blog\/blog-post-the-difference-between-natural-pool-and-traditional-pool.jpg" : {
       "ft" : 16384,
       "iS" : 1796275,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/blog\/blog-post-the difference-between-natural-pool-and-traditional-pool.jpg",
+      "oAP" : "\/assets\/images\/blog\/blog-post-the-difference-between-natural-pool-and-traditional-pool.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/blog\/blog-post-water-storage-solutions.jpg" : {
+      "ft" : 16384,
+      "iS" : 2142576,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/blog\/blog-post-water-storage-solutions.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -240,7 +240,7 @@
       "oAP" : "\/assets\/images\/blog\/blog-post-why-you-should-have-a-natural-pool.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
