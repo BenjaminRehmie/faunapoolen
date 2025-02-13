@@ -180,6 +180,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/blog\/blog-post-build-your-own-nature-pool.jpg" : {
+      "ft" : 16384,
+      "iS" : 278622,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/blog\/blog-post-build-your-own-nature-pool.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/blog\/blog-post-how-to-manage-algie.jpg" : {
       "ft" : 16384,
       "iS" : 850954,
@@ -1014,6 +1027,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blog\/posts\/blog-post-template.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/build-your-own-nature-pool.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/build-your-own-nature-pool.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/build-your-own-nature-pool.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/build-your-own-nature-pool.html",
       "oF" : 0
     },
     "\/blog\/posts\/can-i-use-water-storage-solutions-when-traditional-wells-arent-an-option.html" : {
