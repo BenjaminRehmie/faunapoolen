@@ -687,6 +687,22 @@ section.blog-post {
     flex-flow: column nowrap;
   }
 
+  &.related {
+    margin-top: 0;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    &>a {
+      max-width: calc(33.33333% - 1rem);
+
+      @media (max-width: $breakpoint-small) {
+        max-width: 100%;
+      }
+    }
+  }
+
   &>a {
     transition: all 0.3s ease;
     flex: 1 1 auto;

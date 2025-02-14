@@ -1545,6 +1545,20 @@ section.blog-post p {
     flex-flow: column nowrap;
   }
 }
+.blog-posts.related {
+  margin-top: 0;
+}
+.blog-posts.related h3 {
+  margin-top: 0;
+}
+.blog-posts.related > a {
+  max-width: calc(33.33333% - 1rem);
+}
+@media (max-width: 640px) {
+  .blog-posts.related > a {
+    max-width: 100%;
+  }
+}
 .blog-posts > a {
   transition: all 0.3s ease;
   flex: 1 1 auto;

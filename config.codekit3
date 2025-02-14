@@ -49,6 +49,14 @@
       "oAP" : "\/assets\/components\/_blog-header.html",
       "oF" : 0
     },
+    "\/assets\/components\/_blog-related.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/components\/_blog-related.html",
+      "oF" : 0
+    },
     "\/assets\/components\/_cta-soft.kit" : {
       "cB" : 0,
       "ft" : 2048,
