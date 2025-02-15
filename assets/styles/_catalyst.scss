@@ -282,6 +282,10 @@ button {
   @media (max-width: $breakpoint-small) {
     flex-flow: column nowrap;
     gap: 2rem;
+
+    &.grid-bp-reverse {
+      flex-flow: column-reverse nowrap;
+    }
   }
 }
 

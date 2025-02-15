@@ -271,6 +271,9 @@ button:hover {
     flex-flow: column nowrap;
     gap: 2rem;
   }
+  .grid-row.grid-bp-reverse {
+    flex-flow: column-reverse nowrap;
+  }
 }
 
 .mt-0 {
