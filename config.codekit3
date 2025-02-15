@@ -843,6 +843,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/pricing\/fountains.jpg" : {
+      "ft" : 16384,
+      "iS" : 8630,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/pricing\/fountains.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/pricing\/koi-pond.jpg" : {
+      "ft" : 16384,
+      "iS" : 8630,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/pricing\/koi-pond.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/pricing\/nature-pool.jpg" : {
+      "ft" : 16384,
+      "iS" : 8630,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/pricing\/nature-pool.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/pricing\/recreation-pond.jpg" : {
       "ft" : 16384,
       "iS" : 276778,
@@ -877,7 +916,7 @@
       "oAP" : "\/assets\/images\/pricing\/water-storage.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -890,7 +929,7 @@
       "oAP" : "\/assets\/images\/pricing\/waterfall.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1262,6 +1301,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/pricing\/index.html",
+      "oF" : 0
+    },
+    "\/pricing\/new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pricing\/new.html",
       "oF" : 0
     },
     "\/README.md" : {
