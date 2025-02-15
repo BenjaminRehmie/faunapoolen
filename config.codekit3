@@ -1151,6 +1151,14 @@
       "oAP" : "\/blog\/posts\/algae-control-and-maintenance-tips.html",
       "oF" : 0
     },
+    "\/blog\/posts\/blog-post-template.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/blog-post-template.html",
+      "oF" : 0
+    },
     "\/blog\/posts\/build-your-own-nature-pool.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1213,14 +1221,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blog\/posts\/how-filtering-works-with-nature-pools.html",
-      "oF" : 0
-    },
-    "\/blog\/posts\/small-features-for-small-spaces.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/blog\/posts\/small-features-for-small-spaces.html",
       "oF" : 0
     },
     "\/blog\/posts\/small-features-for-small-spaces.kit" : {
