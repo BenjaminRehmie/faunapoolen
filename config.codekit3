@@ -521,6 +521,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/header-image-price-page.jpg" : {
+      "ft" : 16384,
+      "iS" : 1414038,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/header-image-price-page.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/icon-chemical.png" : {
       "ft" : 32768,
       "iS" : 90342,
@@ -806,7 +819,7 @@
     },
     "\/assets\/images\/pricing-nature-pool.jpg" : {
       "ft" : 16384,
-      "iS" : 1010201,
+      "iS" : 1196667,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/pricing-nature-pool.jpg",
@@ -1073,6 +1086,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/waterfall.jpg" : {
+      "ft" : 16384,
+      "iS" : 954575,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/waterfall.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
