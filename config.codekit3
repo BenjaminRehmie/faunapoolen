@@ -765,6 +765,71 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/pricing-fountains.jpg" : {
+      "ft" : 16384,
+      "iS" : 764380,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/pricing-fountains.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/pricing-koi-ponds.jpg" : {
+      "ft" : 16384,
+      "iS" : 667737,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/pricing-koi-ponds.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/pricing-landscape.jpg" : {
+      "ft" : 16384,
+      "iS" : 903121,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/pricing-landscape.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/pricing-nature-pool.jpg" : {
+      "ft" : 16384,
+      "iS" : 1010201,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/pricing-nature-pool.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/pricing-water-storage.jpg" : {
+      "ft" : 16384,
+      "iS" : 1300496,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/pricing-water-storage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/pricing\/damm-koi.jpg" : {
       "ft" : 16384,
       "iS" : 219667,
@@ -1149,6 +1214,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blog\/posts\/algae-control-and-maintenance-tips.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/blog-post-template.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/blog-post-template.html",
       "oF" : 0
     },
     "\/blog\/posts\/build-your-own-nature-pool.html" : {
