@@ -149,6 +149,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/blog-post-example.png" : {
+      "ft" : 32768,
+      "iS" : 6442121,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/blog-post-example.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/blog\/aquabasin-function.jpg" : {
       "ft" : 16384,
       "iS" : 976309,
@@ -404,6 +417,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/header-background-1.png" : {
+      "ft" : 32768,
+      "iS" : 7139799,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/header-background-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/header-background-2.jpg" : {
       "ft" : 16384,
       "iS" : 302368,
@@ -417,6 +443,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/header-background-2.png" : {
+      "ft" : 32768,
+      "iS" : 6815875,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/header-background-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/header-background-3.jpg" : {
       "ft" : 16384,
       "iS" : 187336,
@@ -428,6 +467,19 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/header-background-3.png" : {
+      "ft" : 32768,
+      "iS" : 6951792,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/header-background-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/images\/header-background-4.jpg" : {
@@ -477,7 +529,7 @@
       "oAP" : "\/assets\/images\/header-image-price-page.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -521,6 +573,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/isolated-pool.png" : {
+      "ft" : 32768,
+      "iS" : 2124099,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/isolated-pool.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/logo-aquascape.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -552,9 +617,22 @@
       "oAP" : "\/assets\/images\/mood-image-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/mood-image-1.png" : {
+      "ft" : 32768,
+      "iS" : 8793475,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/mood-image-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/images\/mood-image-chairs-by-pool.jpg" : {
@@ -594,6 +672,19 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/mood-image-construction-workers.png" : {
+      "ft" : 32768,
+      "iS" : 5671331,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/mood-image-construction-workers.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/images\/mood-image-girl-in-pool.jpg" : {
@@ -695,7 +786,7 @@
       "oAP" : "\/assets\/images\/pricing-fountains.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -708,7 +799,7 @@
       "oAP" : "\/assets\/images\/pricing-koi-ponds.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -721,20 +812,20 @@
       "oAP" : "\/assets\/images\/pricing-landscape.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/pricing-nature-pool.jpg" : {
       "ft" : 16384,
-      "iS" : 1010201,
+      "iS" : 1196667,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/pricing-nature-pool.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -747,7 +838,7 @@
       "oAP" : "\/assets\/images\/pricing-water-storage.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1007,7 +1098,7 @@
       "oAP" : "\/assets\/images\/waterfall.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1309,6 +1400,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/pricing\/index.html",
+      "oF" : 0
+    },
+    "\/pricing\/new.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pricing\/new.html",
+      "oF" : 0
+    },
+    "\/pricing\/new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pricing\/new.html",
       "oF" : 0
     },
     "\/README.md" : {
