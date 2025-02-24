@@ -1592,3 +1592,40 @@ section.blog-post p {
   max-height: 220px;
   object-fit: cover;
 }
+
+.accordion {
+  width: 100%;
+}
+.accordion .accordion-item {
+  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.accordion .accordion-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.accordion .accordion-item .icon {
+  font-size: 20px;
+  margin-left: auto;
+  transform: rotate(90deg);
+  transition: all 0.2s ease;
+}
+.accordion .accordion-item .accordion-header {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion .accordion-item .accordion-content {
+  display: none;
+  padding-top: 1rem;
+}
+.accordion .accordion-item.open .icon {
+  transform: rotate(0);
+}
+.accordion .accordion-item.open .accordion-content {
+  display: block;
+}

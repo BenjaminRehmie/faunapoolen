@@ -735,3 +735,52 @@ section.blog-post {
     }
   }
 }
+
+.accordion {
+  width: 100%;
+
+  .accordion-item {
+    transition: background-color 0.3s ease;
+    background-color: rgba(white, 0.05);
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    &:hover {
+      background-color: rgba(white, 0.1);
+
+    }
+
+    .icon {
+      font-size: 20px;
+      margin-left: auto;
+      transform: rotate(90deg);
+      transition: all 0.2s ease;
+    }
+
+    .accordion-header {
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .accordion-content {
+      display: none;
+      padding-top: 1rem;
+    }
+
+    &.open {
+
+      .icon {
+        transform: rotate(0);
+      }
+
+      .accordion-content {
+        display: block;
+
+      }
+    }
+  }
+}
