@@ -1598,9 +1598,7 @@ section.blog-post p {
 }
 .accordion .accordion-item {
   transition: background-color 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.05);
-  margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .accordion .accordion-item:hover {
   background-color: rgba(255, 255, 255, 0.1);
