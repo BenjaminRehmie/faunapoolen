@@ -1273,6 +1273,21 @@ section.cta .section-content {
   backdrop-filter: blur(16px);
 }
 
+section.gallery {
+  column-count: 3;
+  column-gap: 0;
+  grid-auto-flow: dense;
+  margin: 0 -3rem;
+  width: calc(100% + 6rem);
+}
+section.gallery img {
+  width: 100%;
+  display: block;
+  margin-bottom: 0;
+  break-inside: avoid;
+  border: 0.25rem solid #001e29;
+}
+
 a.blur-box {
   transition: all 0.3s ease;
   cursor: pointer;
