@@ -270,6 +270,21 @@ ul {
   padding: 0;
   margin: 0;
 
+  &.prominent {
+    margin-bottom: 1rem;
+
+    li {
+      color: $white;
+      font-size: 1rem;
+
+      .material-symbols-outlined {
+        font-size: 21px;
+        width: 21px;
+        padding-top: 0.4rem;
+      }
+    }
+  }
+
   li {
     display: flex;
     align-items: flex-start;

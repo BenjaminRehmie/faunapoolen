@@ -1166,6 +1166,18 @@ ul {
   padding: 0;
   margin: 0;
 }
+ul.prominent {
+  margin-bottom: 1rem;
+}
+ul.prominent li {
+  color: #ffffff;
+  font-size: 1rem;
+}
+ul.prominent li .material-symbols-outlined {
+  font-size: 21px;
+  width: 21px;
+  padding-top: 0.4rem;
+}
 ul li {
   display: flex;
   align-items: flex-start;
