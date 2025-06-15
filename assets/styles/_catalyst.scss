@@ -41,7 +41,7 @@ section {
   }
 
   @media (max-width: $breakpoint-small) {
-    padding: 1rem 0;
+    padding: 2rem 0;
   }
 
   .section-content {
@@ -200,7 +200,7 @@ button {
   border-radius: 300px;
   padding: 0.6rem 1rem;
   cursor: pointer;
-  font-weight: $font-regular;
+  font-weight: $font-bold;
   border-radius: 300px;
   color: $white;
 
@@ -216,6 +216,7 @@ button {
   border-radius: 300px;
   padding: 0.2rem 0.8rem;
   cursor: pointer;
+  font-weight: $font-bold;
   background-color: $primary;
   font-size: $font-size-button;
 
@@ -455,6 +456,12 @@ button {
 
 .hidden-responsive {
   @media (max-width: $breakpoint-small) {
+    display: none;
+  }
+}
+
+.hidden-desktop {
+  @media (min-width: $breakpoint-small) {
     display: none;
   }
 }

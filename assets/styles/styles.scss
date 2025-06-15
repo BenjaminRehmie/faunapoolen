@@ -25,12 +25,14 @@ header {
 
   @media (max-width: $breakpoint-small) {
     padding-top: 6rem;
+    padding-bottom: 2rem;
   }
 
   h1 {
     font-family: $font-family-headings;
     color: white;
     margin: 0;
+    line-height: 1.1;
 
     @media (max-width: $breakpoint-small) {
       font-size: 2.1rem;
@@ -47,17 +49,17 @@ header {
     }
   }
 
-  a {
-    color: $white;
-    transition: all 0.3 ease;
-    background-color: rgba(white, 0.1);
-    padding: 0.1rem 0.75rem 0.1rem 0.5rem;
-    border-radius: 300px;
+  // a {
+  //   color: $white;
+  //   transition: all 0.3 ease;
+  //   background-color: rgba(white, 0.1);
+  //   padding: 0.1rem 0.75rem 0.1rem 0.5rem;
+  //   border-radius: 300px;
 
-    &:hover {
-      background-color: rgba(white, 0.2);
-    }
-  }
+  //   &:hover {
+  //     background-color: rgba(white, 0.2);
+  //   }
+  // }
 
   pre {
     position: relative;
@@ -463,6 +465,14 @@ a.blur-box {
   justify-content: space-between;
   flex-flow: column nowrap;
   gap: 1rem;
+
+  a {
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    border-top: $line;
+    text-align: center;
+  }
 
   &.box-start {
     justify-content: flex-start;
