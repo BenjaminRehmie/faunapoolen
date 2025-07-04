@@ -352,6 +352,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/blog\/sports-stars-natural-ponds.jpg" : {
+      "ft" : 16384,
+      "iS" : 1146965,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/blog\/sports-stars-natural-ponds.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/blog\/test-image.png" : {
       "ft" : 32768,
       "iS" : 833851,
@@ -411,6 +424,84 @@
       "oA" : 0,
       "oAP" : "\/assets\/images\/favicon.ico",
       "oF" : 0
+    },
+    "\/assets\/images\/gallery\/1.jpg" : {
+      "ft" : 16384,
+      "iS" : 240129,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/gallery\/2.jpg" : {
+      "ft" : 16384,
+      "iS" : 240290,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/gallery\/3.jpg" : {
+      "ft" : 16384,
+      "iS" : 266468,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/gallery\/4.jpg" : {
+      "ft" : 16384,
+      "iS" : 198570,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/gallery\/5.jpg" : {
+      "ft" : 16384,
+      "iS" : 267782,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/gallery\/6.jpg" : {
+      "ft" : 16384,
+      "iS" : 95069,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/images\/header-background-1.jpg" : {
       "ft" : 16384,
@@ -1282,6 +1373,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blog\/posts\/small-features-for-small-spaces.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/sports-stars-natural-ponds.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/sports-stars-natural-ponds.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/sports-stars-natural-ponds.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/sports-stars-natural-ponds.html",
       "oF" : 0
     },
     "\/blog\/posts\/why-you-should-get-a-natural-pool.html" : {
