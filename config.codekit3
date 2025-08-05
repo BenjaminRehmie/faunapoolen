@@ -7,7 +7,7 @@
       "uuidString" : "087C504F-7CD1-4AD0-921B-6BAFCFDF1715"
     }
   ],
-  "creatorBuild" : "34592",
+  "creatorBuild" : "34704",
   "files" : {
     "\/about\/index.html" : {
       "cB" : 0,
@@ -495,7 +495,7 @@
     },
     "\/assets\/images\/gallery\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 267782,
+      "iS" : 1159664,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/gallery\/5.jpg",
@@ -527,20 +527,7 @@
       "oAP" : "\/assets\/images\/gallery\/8.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/gallery\/9.jpg" : {
-      "ft" : 16384,
-      "iS" : 1593248,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/gallery\/9.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -553,17 +540,17 @@
       "oAP" : "\/assets\/images\/gallery\/10.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/gallery\/11.jpg" : {
+    "\/assets\/images\/gallery\/13.jpg" : {
       "ft" : 16384,
-      "iS" : 1593248,
+      "iS" : 180906,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/gallery\/11.jpg",
+      "oAP" : "\/assets\/images\/gallery\/13.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -908,7 +895,7 @@
     },
     "\/assets\/images\/pricing-nature-pool.jpg" : {
       "ft" : 16384,
-      "iS" : 1196667,
+      "iS" : 1010201,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/pricing-nature-pool.jpg",
@@ -1218,7 +1205,6 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1226,14 +1212,12 @@
       "oAP" : "\/assets\/styles\/_catalyst.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/styles\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1241,8 +1225,7 @@
       "oAP" : "\/assets\/styles\/_variables.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/styles\/normalize.css" : {
       "aP" : 1,
@@ -1272,7 +1255,6 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1280,8 +1262,7 @@
       "oAP" : "\/assets\/styles\/styles.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/blog\/index.html" : {
       "cB" : 0,
@@ -1932,8 +1913,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
@@ -3074,9 +3053,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 1,
       "purgeCSSStyle" : 0,
@@ -3193,6 +3170,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
