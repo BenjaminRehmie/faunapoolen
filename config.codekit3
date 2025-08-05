@@ -519,6 +519,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/gallery\/8.jpg" : {
+      "ft" : 16384,
+      "iS" : 1305025,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/8.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/gallery\/9.jpg" : {
+      "ft" : 16384,
+      "iS" : 1593248,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/9.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/gallery\/10.jpg" : {
+      "ft" : 16384,
+      "iS" : 1459351,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/10.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/header-background-1.jpg" : {
       "ft" : 16384,
       "iS" : 228729,
