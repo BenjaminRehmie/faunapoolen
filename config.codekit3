@@ -558,6 +558,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/gallery\/11.jpg" : {
+      "ft" : 16384,
+      "iS" : 1593248,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/gallery\/11.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/header-background-1.jpg" : {
       "ft" : 16384,
       "iS" : 228729,
