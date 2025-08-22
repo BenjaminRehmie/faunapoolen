@@ -173,6 +173,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/blog\/18.png" : {
+      "ft" : 32768,
+      "iS" : 1341983,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/blog\/18.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/blog\/19.png" : {
+      "ft" : 32768,
+      "iS" : 1150959,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/blog\/19.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/blog\/aquabasin-function.jpg" : {
       "ft" : 16384,
       "iS" : 976309,
@@ -210,6 +236,19 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/blog\/Blog-Golf-Header-Image.png" : {
+      "ft" : 32768,
+      "iS" : 1308180,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/blog\/Blog-Golf-Header-Image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/images\/blog\/blog-list-background.jpg" : {
@@ -1435,6 +1474,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blog\/posts\/difference-between-normal-pool-and-natural-pool.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/how-faunapoolen-helps-golf-clubs-manage-ponds-lakes-and-streams.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/how-faunapoolen-helps-golf-clubs-manage-ponds-lakes-and-streams.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/how-faunapoolen-helps-golf-clubs-manage-ponds-lakes-and-streams.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/how-faunapoolen-helps-golf-clubs-manage-ponds-lakes-and-streams.html",
       "oF" : 0
     },
     "\/blog\/posts\/how-filtering-works-with-nature-pools.html" : {
