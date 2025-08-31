@@ -355,6 +355,22 @@ section {
     }
   }
 
+  &.suppliers {
+    .section-content {
+      background-color: rgba(white, 0.1);
+      backdrop-filter: blur(8px);
+      padding: 2rem;
+
+      @media (max-width: $breakpoint-small) {
+        padding: 1rem;
+      }
+    }
+
+    @media (max-width: $breakpoint-small) {
+      margin: 0 -1rem;
+    }
+  }
+
   &.cta {
     padding: 12rem 0;
     background: $contrast url('/assets/images/background-texture-leafs.jpg') no-repeat;

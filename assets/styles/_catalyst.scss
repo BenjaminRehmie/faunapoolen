@@ -252,6 +252,11 @@ button {
     gap: 0;
   }
 
+  &.fixed {
+    flex-flow: row nowrap !important;
+    gap: 1rem;
+  }
+
   &.grid-3-columns {
     .grid-cell {
       flex: 1 1 33.3333333%;

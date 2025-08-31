@@ -243,6 +243,10 @@ button:hover {
 .grid-row.gap-none {
   gap: 0;
 }
+.grid-row.fixed {
+  flex-flow: row nowrap !important;
+  gap: 1rem;
+}
 .grid-row.grid-3-columns .grid-cell {
   flex: 1 1 33.3333333%;
   max-width: calc(33.3333333% - 1rem);
@@ -1235,6 +1239,21 @@ section .section-image {
 @media (max-width: 640px) {
   section .section-image {
     min-width: 100%;
+  }
+}
+section.suppliers .section-content {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 2rem;
+}
+@media (max-width: 640px) {
+  section.suppliers .section-content {
+    padding: 1rem;
+  }
+}
+@media (max-width: 640px) {
+  section.suppliers {
+    margin: 0 -1rem;
   }
 }
 section.cta {
