@@ -7,7 +7,7 @@
       "uuidString" : "087C504F-7CD1-4AD0-921B-6BAFCFDF1715"
     }
   ],
-  "creatorBuild" : "34892",
+  "creatorBuild" : "34592",
   "files" : {
     "\/about\/index.html" : {
       "cB" : 0,
@@ -152,6 +152,19 @@
       "iS" : 26213,
       "oA" : 0,
       "oAP" : "\/assets\/images\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/aquascape.png" : {
+      "ft" : 32768,
+      "iS" : 55019,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/aquascape.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -433,6 +446,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/dangarden.png" : {
+      "ft" : 32768,
+      "iS" : 53005,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/dangarden.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/decoration-leaves-1.png" : {
       "ft" : 32768,
       "iS" : 303495,
@@ -534,7 +560,7 @@
     },
     "\/assets\/images\/gallery\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 1159664,
+      "iS" : 267782,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/gallery\/5.jpg",
@@ -789,6 +815,32 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/mn-vvs.png" : {
+      "ft" : 32768,
+      "iS" : 28770,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/mn-vvs.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/moerings.png" : {
+      "ft" : 32768,
+      "iS" : 39358,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/moerings.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/mood-image-1.jpg" : {
       "ft" : 16384,
       "iS" : 810615,
@@ -973,7 +1025,7 @@
     },
     "\/assets\/images\/pricing-nature-pool.jpg" : {
       "ft" : 16384,
-      "iS" : 1010201,
+      "iS" : 1196667,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/pricing-nature-pool.jpg",
@@ -1179,6 +1231,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/services-background-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1367100,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/services-background-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/services-background-2.png" : {
+      "ft" : 32768,
+      "iS" : 2083504,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/services-background-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/services-background.png" : {
+      "ft" : 32768,
+      "iS" : 2190661,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/services-background.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/services\/fountains.jpg" : {
       "ft" : 16384,
       "iS" : 53424,
@@ -1244,6 +1335,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/stenbolaget.png" : {
+      "ft" : 32768,
+      "iS" : 27341,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/stenbolaget.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/waterfall.jpg" : {
       "ft" : 16384,
       "iS" : 954575,
@@ -1283,6 +1387,7 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1290,12 +1395,14 @@
       "oAP" : "\/assets\/styles\/_catalyst.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1303,7 +1410,8 @@
       "oAP" : "\/assets\/styles\/_variables.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/normalize.css" : {
       "aP" : 1,
@@ -1333,6 +1441,7 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1340,7 +1449,8 @@
       "oAP" : "\/assets\/styles\/styles.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0
+      "pg" : 0,
+      "sct" : 0
     },
     "\/blog\/index.html" : {
       "cB" : 0,
@@ -2007,6 +2117,8 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
+    "cssoForceMediaMerge" : 0,
+    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
@@ -2643,9 +2755,6 @@
         "active" : 0,
         "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
-      "no-unassigned-vars" : {
-        "active" : 0
-      },
       "no-undef" : {
         "active" : 1,
         "optionString" : "{'typeof': false}"
@@ -2726,8 +2835,7 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 1,
-        "optionString" : "{'allowRegexCharacters': []}"
+        "active" : 1
       },
       "no-useless-rename" : {
         "active" : 0,
@@ -3151,7 +3259,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
+      "compilerType" : 0,
       "cssoStyle" : 0,
+      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 1,
       "purgeCSSStyle" : 0,
@@ -3268,7 +3378,6 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
-    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
