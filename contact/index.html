@@ -66,10 +66,6 @@
         <table class="mt-2">
           <tbody>
             <tr>
-              <td width="1%" class="text-discreet">Epost</td>
-              <td><a href="mailto:info@faunapoolen.se">info@faunapoolen.se</a></td>
-            </tr>
-            <tr>
               <td width="1%" class="text-discreet">Telefon</td>
               <td><a href="tel:+460735406757">0735 - 40 67 57</a></td>
             </tr>
@@ -78,6 +74,24 @@
       </div>
       <div class="grid-cell">
         <form action="https://formspree.io/f/xnnaekgl" method="POST">
+          <select id="category" name="kategori" required>
+            <option value="" disabled selected>Välj kategori...</option>
+            <option>Naturpool</option>
+            <option>Koi-damm</option>
+            <option>Vattenfall</option>
+            <option>Regnvattenskörd</option>
+            <option>Trädgårdsskötsel</option>
+            <option>Annat</option>
+          </select>
+          <select id="budget" name="budget" required>
+            <option value="" disabled selected>Välj din budget...</option>
+            <option value="80000-150000">80 000 – 150 000 kr</option>
+            <option value="150000-300000">150 000 – 300 000 kr</option>
+            <option value="300000-500000">300 000 – 500 000 kr</option>
+            <option value="500000-800000">500 000 – 800 000 kr</option>
+            <option value="800000+">800 000 kr eller mer</option>
+          </select>
+          <input id="location" name="plats" type="text" placeholder="Plats / postnummer..." required>
           <input type="text" name="firstName" placeholder="Ditt namn..." required="required" />
           <input type="email" name="email" placeholder="Din epost..." required="required" />
           <input type="text" name="phone" placeholder="Ditt telefonnummer (valfritt)..." />
@@ -116,7 +130,6 @@
   <div class="footer-content">
     <div>
       <div>Faunapoolen AB</div>
-      <div>info@faunapoolen.se</div>
       <div class="mb-1">0735 - 40 67 57</div>
       <a href="https://inkandlynx.com/" target="_blank">Design av Ink&Lynx</a>
     </div>

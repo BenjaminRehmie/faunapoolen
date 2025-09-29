@@ -146,6 +146,7 @@ table td {
 form input[type=text],
 form input[type=email],
 form textarea,
+form select,
 form input[type=text]:active,
 form input[type=email]:active,
 form textarea:active {
@@ -162,6 +163,7 @@ form textarea:active {
 form input[type=text]:hover,
 form input[type=email]:hover,
 form textarea:hover,
+form select:hover,
 form input[type=text]:active:hover,
 form input[type=email]:active:hover,
 form textarea:active:hover {
@@ -169,6 +171,15 @@ form textarea:active:hover {
 }
 form textarea {
   height: 200px;
+}
+form select {
+  appearance: none;
+  -moz-appearance: none;
+  padding-right: 1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 22px;
 }
 form ::placeholder {
   color: rgba(255, 255, 255, 0.3);
