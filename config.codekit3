@@ -7,7 +7,7 @@
       "uuidString" : "087C504F-7CD1-4AD0-921B-6BAFCFDF1715"
     }
   ],
-  "creatorBuild" : "34592",
+  "creatorBuild" : "34689",
   "files" : {
     "\/about\/index.html" : {
       "cB" : 0,
@@ -113,6 +113,14 @@
       "oAP" : "\/assets\/components\/_navigation.html",
       "oF" : 0
     },
+    "\/assets\/components\/_quotes-main-only.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/components\/_quotes-main-only.html",
+      "oF" : 0
+    },
     "\/assets\/components\/_quotes.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -120,6 +128,19 @@
       "oA" : 1,
       "oAP" : "\/assets\/components\/_quotes.html",
       "oF" : 0
+    },
+    "\/assets\/images\/alan-decker.jpg" : {
+      "ft" : 16384,
+      "iS" : 785214,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/alan-decker.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/images\/android-chrome-192x192.png" : {
       "ft" : 32768,
@@ -160,6 +181,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/aquascape-team.jpg" : {
+      "ft" : 16384,
+      "iS" : 1099595,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/aquascape-team.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/aquascape.png" : {
       "ft" : 32768,
       "iS" : 55019,
@@ -179,6 +213,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/background-texture-leafs.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/Backyardpool.jpg" : {
+      "ft" : 16384,
+      "iS" : 2092075,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/Backyardpool.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -446,6 +493,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/brian-pond.jpg" : {
+      "ft" : 16384,
+      "iS" : 674809,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/brian-pond.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/dangarden.png" : {
       "ft" : 32768,
       "iS" : 53005,
@@ -470,6 +530,136 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/dip-pond-asthetics.jpg" : {
+      "ft" : 16384,
+      "iS" : 224625,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/dip-pond-asthetics.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/dip-pond-field.jpg" : {
+      "ft" : 16384,
+      "iS" : 1423818,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/dip-pond-field.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/dip-pond-hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 6766632,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/dip-pond-hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/dip-pond-large.jpg" : {
+      "ft" : 16384,
+      "iS" : 75722,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/dip-pond-large.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/dip-pond-medium.jpg" : {
+      "ft" : 16384,
+      "iS" : 271695,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/dip-pond-medium.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/dip-pond-small.jpg" : {
+      "ft" : 16384,
+      "iS" : 113207,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/dip-pond-small.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/ed-pond.jpg" : {
+      "ft" : 16384,
+      "iS" : 879149,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/ed-pond.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/eds-pond-waterfall.jpg" : {
+      "ft" : 16384,
+      "iS" : 1004471,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/eds-pond-waterfall.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/Faunapoolen - ip Pond Hero Image.jpg" : {
+      "ft" : 16384,
+      "iS" : 6766632,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/Faunapoolen - ip Pond Hero Image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/faunapoolen-dip-pond.jpg" : {
+      "ft" : 16384,
+      "iS" : 1039301,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/faunapoolen-dip-pond.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/favicon-16x16.png" : {
@@ -662,6 +852,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/greg-pond.jpg" : {
+      "ft" : 16384,
+      "iS" : 1071515,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/greg-pond.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/header-background-1.jpg" : {
       "ft" : 16384,
       "iS" : 228729,
@@ -813,6 +1016,19 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/medium-dip-pond.jpg" : {
+      "ft" : 16384,
+      "iS" : 93733,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/medium-dip-pond.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/mn-vvs.png" : {
@@ -1348,6 +1564,32 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/traditional-swim-pool.jpg" : {
+      "ft" : 16384,
+      "iS" : 1530910,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/traditional-swim-pool.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/traditional-swim-pool.png" : {
+      "ft" : 32768,
+      "iS" : 2282565,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/traditional-swim-pool.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/waterfall.jpg" : {
       "ft" : 16384,
       "iS" : 954575,
@@ -1387,7 +1629,6 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1395,14 +1636,12 @@
       "oAP" : "\/assets\/styles\/_catalyst.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/styles\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1410,8 +1649,7 @@
       "oAP" : "\/assets\/styles\/_variables.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/styles\/normalize.css" : {
       "aP" : 1,
@@ -1441,7 +1679,6 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -1449,8 +1686,7 @@
       "oAP" : "\/assets\/styles\/styles.css",
       "oF" : 0,
       "oS" : 1,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/blog\/index.html" : {
       "cB" : 0,
@@ -2133,8 +2369,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
@@ -3275,9 +3509,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 1,
       "purgeCSSStyle" : 0,
@@ -3394,6 +3626,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
