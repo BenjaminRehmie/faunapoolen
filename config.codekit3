@@ -1952,6 +1952,22 @@
       "oAP" : "\/index.html",
       "oF" : 0
     },
+    "\/koi-pond-series.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/koi-pond-series.html",
+      "oF" : 0
+    },
+    "\/koi-pond-series.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/koi-pond-series.html",
+      "oF" : 0
+    },
     "\/nature-pools.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1966,6 +1982,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/nature-pools.html",
+      "oF" : 0
+    },
+    "\/oasis-pond-series.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oasis-pond-series.html",
+      "oF" : 0
+    },
+    "\/oasis-pond-series.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oasis-pond-series.html",
       "oF" : 0
     },
     "\/pricing\/index.html" : {
