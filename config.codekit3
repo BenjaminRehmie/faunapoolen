@@ -2000,6 +2000,22 @@
       "oAP" : "\/oasis-pond-series.html",
       "oF" : 0
     },
+    "\/pond-packages-landing.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pond-packages-landing.html",
+      "oF" : 0
+    },
+    "\/pond-packages-landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pond-packages-landing.html",
+      "oF" : 0
+    },
     "\/pricing\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
