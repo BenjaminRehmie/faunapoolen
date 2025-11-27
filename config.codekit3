@@ -1920,22 +1920,6 @@
       "oAP" : "\/contact\/index.html",
       "oF" : 0
     },
-    "\/dip-pond-series.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dip-pond-series.html",
-      "oF" : 0
-    },
-    "\/dip-pond-series.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dip-pond-series.html",
-      "oF" : 0
-    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1984,20 +1968,20 @@
       "oAP" : "\/nature-pools.html",
       "oF" : 0
     },
-    "\/oasis-pond-series.html" : {
+    "\/plunge-series.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/oasis-pond-series.html",
+      "oAP" : "\/plunge-series.html",
       "oF" : 0
     },
-    "\/oasis-pond-series.kit" : {
+    "\/plunge-series.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/oasis-pond-series.html",
+      "oAP" : "\/plunge-series.html",
       "oF" : 0
     },
     "\/pond-packages-landing.html" : {
@@ -2050,22 +2034,6 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/reflection-swim-pond-series.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/reflection-swim-pond-series.html",
-      "oF" : 0
-    },
-    "\/reflection-swim-pond-series.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/reflection-swim-pond-series.html",
-      "oF" : 0
     },
     "\/robots.txt" : {
       "cB" : 0,
@@ -2121,6 +2089,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sweden-expert-naturpooler-biopooler-ecopooler-kemikaliefria-pooler-baddammar\/index.html",
+      "oF" : 0
+    },
+    "\/swim-series.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/swim-series.html",
+      "oF" : 0
+    },
+    "\/swim-series.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/swim-series.html",
+      "oF" : 0
+    },
+    "\/waterfront-series.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/waterfront-series.html",
       "oF" : 0
     }
   },
