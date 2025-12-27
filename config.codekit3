@@ -1920,6 +1920,14 @@
       "oAP" : "\/contact\/index.html",
       "oF" : 0
     },
+    "\/faunapoolen.code-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/faunapoolen.code-workspace",
+      "oF" : 0
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2105,6 +2113,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/swim-series.html",
+      "oF" : 0
+    },
+    "\/waterfront-series.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/waterfront-series.html",
       "oF" : 0
     },
     "\/waterfront-series.kit" : {
