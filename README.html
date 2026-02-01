@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="faunapoolenwebsite">Faunapoolen Website</h1>
+
+<p>Static marketing site for Faunapoolen (naturpooler + waterscapes). Built with CodeKit so <code>.kit</code> templates compile into <code>.html</code>. This README is written for AI assistants and non-technical editors.</p>
+
+<h2 id="quickstartcodekitisrequired">Quick Start (CodeKit is required)</h2>
+
+<ul>
+<li>Open CodeKit and add this repo folder.</li>
+<li>CodeKit watches <code>.kit</code> and <code>.scss</code> files and auto-renders <code>.html</code> and <code>.css</code>.</li>
+<li>Always edit <code>.kit</code> files (not <code>.html</code>). The HTML files are generated.</li>
+</ul>
+
+<h2 id="projectstructurewhattoedit">Project Structure (what to edit)</h2>
+
+<ul>
+<li>Page sources: root <code>.kit</code> files and <code>*/index.kit</code> files (e.g. <code>index.kit</code>, <code>about/index.kit</code>, <code>contact/index.kit</code>).</li>
+<li>Blog list: <code>blog/index.kit</code> (each entry is a link block).</li>
+<li>Blog posts: <code>blog/posts/*.kit</code> (each post has a matching generated <code>.html</code>).</li>
+<li>Shared layout/includes: <code>assets/components/*.kit</code> (header, footer, nav, CTAs, etc). Files prefixed with <code>_</code> are include-only and are not rendered by CodeKit.</li>
+<li>Styles: <code>assets/styles/styles.scss</code> (compiled to <code>assets/styles/styles.css</code>).</li>
+<li>Style tokens/variables: <code>assets/styles/_variables.scss</code>.</li>
+<li>Scripts: <code>assets/scripts/scripts.js</code> (compiled/minified to <code>assets/scripts/scripts-min.js</code>).</li>
+<li>Images: <code>assets/images/</code>.</li>
+<li>CodeKit config: <code>config.codekit3</code> (do not edit by hand).</li>
+</ul>
+
+<h2 id="editingrulesimportant">Editing Rules (important)</h2>
+
+<ul>
+<li>Edit <code>.kit</code> files only. CodeKit generates <code>.html</code> automatically.</li>
+<li>Keep includes intact: <code>&lt;!-- @include '/assets/components/_header.kit' --&gt;</code>.</li>
+<li>Update global navigation in <code>assets/components/_navigation.kit</code>.</li>
+<li>Update footer links/text in <code>assets/components/_footer.kit</code>.</li>
+<li>CSS/SCSS: Prefer existing variables and utility patterns in <code>assets/styles/</code> and avoid one-off styles.</li>
+<li>SEO: Favor small, structured edits over large rewrites to protect current Google ranking performance.</li>
+<li>JavaScript: Keep JS minimal; only add scripts when absolutely necessary.</li>
+<li>Headings are sentence case.</li>
+</ul>
+
+<h2 id="commontasks">Common Tasks</h2>
+
+<h3 id="updatepagecopy">Update page copy</h3>
+
+<ol>
+<li>Open the relevant <code>.kit</code> file.</li>
+<li>Edit text or images.</li>
+<li>Save; CodeKit rebuilds the <code>.html</code>.</li>
+</ol>
+
+<h3 id="addanewpage">Add a new page</h3>
+
+<ol>
+<li>Copy an existing <code>.kit</code> page as a starting point.</li>
+<li>Adjust the content and save.</li>
+<li>CodeKit outputs the matching <code>.html</code>.</li>
+<li>Add the new link to <code>assets/components/_navigation.kit</code> and <code>assets/components/_footer.kit</code>.</li>
+</ol>
+
+<h3 id="addablogpost">Add a blog post</h3>
+
+<ol>
+<li>Duplicate <code>blog/posts/blog-post-template.kit</code>.</li>
+<li>Update the title, content, image paths, and slug in the filename.</li>
+<li>Add a new entry block in <code>blog/index.kit</code> linking to the new <code>.html</code>.</li>
+</ol>
+
+<h2 id="secrets.envaitooling">Secrets / .env (AI tooling)</h2>
+
+<p>This site is static and does not currently use runtime secrets. If you add AI scripts or local tooling:</p>
+
+<ul>
+<li>Create a local <code>.env</code> file with keys like <code>OPENAI_API_KEY=...</code>.</li>
+<li>Do not commit <code>.env</code> to git (add it to <code>.gitignore</code> if needed).</li>
+</ul>
+
+<h2 id="outputfilesgenerated">Output Files (generated)</h2>
+
+<ul>
+<li><code>.html</code> files next to their <code>.kit</code> sources (do not edit directly).</li>
+<li><code>assets/styles/styles.css</code> from <code>assets/styles/styles.scss</code>.</li>
+<li><code>assets/scripts/scripts-min.js</code> from <code>assets/scripts/scripts.js</code>.</li>
+</ul>
+
+<h2 id="notesforaiassistants">Notes for AI Assistants</h2>
+
+<ul>
+<li>Prefer editing <code>.kit</code> templates and SCSS source files.</li>
+<li>Keep the CodeKit include comments and file paths unchanged unless you intentionally restructure the site.</li>
+<li>Avoid editing <code>config.codekit3</code> directly; use CodeKit UI.</li>
+<li>Use the existing light CSS framework and variables; avoid special-case CSS.</li>
+<li>Keep changes minimal to protect current SEO performance.</li>
+<li>Copy tone: Swedish-first site; keep wording tight and avoid fluff or repetition (except SEO-driven blog content).</li>
+<li>Business context: Mikael is the director; landing pages should balance CTR/SEO with high-value customer conversions (not window shoppers).</li>
+<li>Forms: Contact forms submit via Formspree (<code>https://formspree.io</code>).</li>
+<li>Header/meta/analytics live in <code>assets/components/_header.kit</code>; do not change tracking IDs without approval.</li>
+<li>When Ben writes in English, translate all public-facing copy to concise, correct Swedish.</li>
+<li>Guide Ben step by step and warn clearly if a request could hurt Google ranking.</li>
+</ul>
+
+<h2 id="publishing">Publishing</h2>
+
+<ul>
+<li>Hosted on GitHub Pages with a custom domain (see <code>CNAME</code>).</li>
+</ul>
+
+<h2 id="localpreview">Local Preview</h2>
+
+<ul>
+<li>Use the CodeKit built-in server to preview changes locally.</li>
+</ul>
+
+<h2 id="images">Images</h2>
+
+<ul>
+<li>Place new images under <code>assets/images/</code> following existing folder patterns (e.g. <code>assets/images/blog/</code>, <code>assets/images/services/</code>, <code>assets/images/pricing/</code>).</li>
+<li>Optimize images for web; avoid overly large resolutions.</li>
+</ul>
+
+</body>
+</html>
+
