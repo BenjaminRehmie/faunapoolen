@@ -7,7 +7,7 @@
       "uuidString" : "087C504F-7CD1-4AD0-921B-6BAFCFDF1715"
     }
   ],
-  "creatorBuild" : "34892",
+  "creatorBuild" : "34689",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -204,7 +204,7 @@
     },
     "\/assets\/images\/aquascape.png" : {
       "ft" : 32768,
-      "iS" : 9026,
+      "iS" : 55019,
       "oA" : 0,
       "oAP" : "\/assets\/images\/aquascape.png",
       "oF" : 0,
@@ -784,7 +784,7 @@
     },
     "\/assets\/images\/gallery\/8.jpg" : {
       "ft" : 16384,
-      "iS" : 172615,
+      "iS" : 1305025,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/gallery\/8.jpg",
@@ -797,7 +797,7 @@
     },
     "\/assets\/images\/gallery\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 200304,
+      "iS" : 1459351,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/gallery\/10.jpg",
@@ -1041,7 +1041,7 @@
     },
     "\/assets\/images\/mn-vvs.png" : {
       "ft" : 32768,
-      "iS" : 3828,
+      "iS" : 28770,
       "oA" : 0,
       "oAP" : "\/assets\/images\/mn-vvs.png",
       "oF" : 0,
@@ -1249,7 +1249,7 @@
     },
     "\/assets\/images\/pricing-nature-pool.jpg" : {
       "ft" : 16384,
-      "iS" : 1010201,
+      "iS" : 1196667,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/pricing-nature-pool.jpg",
@@ -1457,7 +1457,7 @@
     },
     "\/assets\/images\/services-background-2.jpg" : {
       "ft" : 16384,
-      "iS" : 772816,
+      "iS" : 1367100,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/services-background-2.jpg",
@@ -1561,7 +1561,7 @@
     },
     "\/assets\/images\/stenbolaget.png" : {
       "ft" : 32768,
-      "iS" : 3512,
+      "iS" : 27341,
       "oA" : 0,
       "oAP" : "\/assets\/images\/stenbolaget.png",
       "oF" : 0,
@@ -1934,6 +1934,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/faunapoolen.code-workspace",
+      "oF" : 0
+    },
+    "\/fountains.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fountains.html",
       "oF" : 0
     },
     "\/index.html" : {
@@ -3093,9 +3101,6 @@
         "active" : 0,
         "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
-      "no-unassigned-vars" : {
-        "active" : 0
-      },
       "no-undef" : {
         "active" : 1,
         "optionString" : "{'typeof': false}"
@@ -3176,8 +3181,7 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 1,
-        "optionString" : "{'allowRegexCharacters': []}"
+        "active" : 1
       },
       "no-useless-rename" : {
         "active" : 0,
