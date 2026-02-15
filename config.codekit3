@@ -1325,6 +1325,58 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/plunge\/aquascape-plunge1.jpg" : {
+      "ft" : 16384,
+      "iS" : 205130,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/plunge\/aquascape-plunge1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/plunge\/aquascape-plunge2.png" : {
+      "ft" : 32768,
+      "iS" : 3515282,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/plunge\/aquascape-plunge2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/plunge\/hero-image.jpg" : {
+      "ft" : 16384,
+      "iS" : 782948,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/plunge\/hero-image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/plunge\/tomelilla-pond.png" : {
+      "ft" : 32768,
+      "iS" : 2686150,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/plunge\/tomelilla-pond.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/portait-lindahl.jpg" : {
       "ft" : 16384,
       "iS" : 48548,
