@@ -189,6 +189,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/aquascape-pool16.jpg" : {
+      "ft" : 16384,
+      "iS" : 202195,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/aquascape-pool16.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/aquascape-team.jpg" : {
       "ft" : 16384,
       "iS" : 1099595,
@@ -1120,6 +1133,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/koi-ponds\/features-of-wetland-filter.png" : {
+      "ft" : 32768,
+      "iS" : 181043,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/koi-ponds\/features-of-wetland-filter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/images\/koi-ponds\/hero-image-koi.jpg" : {
       "ft" : 16384,
       "iS" : 478615,
@@ -1310,6 +1336,19 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/natural-pool-15.png" : {
+      "ft" : 32768,
+      "iS" : 2757550,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/natural-pool-15.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/images\/og-image.png" : {
@@ -1869,12 +1908,38 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/swim\/aquascape-swim10.jpg" : {
+      "ft" : 16384,
+      "iS" : 299434,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/swim\/aquascape-swim10.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/swim\/hero-image-swim.jpg" : {
       "ft" : 16384,
       "iS" : 461279,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/swim\/hero-image-swim.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/swim\/landing-hero-image.jpg" : {
+      "ft" : 16384,
+      "iS" : 757804,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/swim\/landing-hero-image.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1919,6 +1984,17 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/waterfront\/Aqualand-Home2.webp" : {
+      "ft" : 8388608,
+      "iS" : 275008,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/waterfront\/Aqualand-Home2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/images\/waterfront\/aquascape-waterfront-hero-image.jpg" : {
