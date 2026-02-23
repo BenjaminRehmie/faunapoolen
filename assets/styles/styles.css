@@ -1077,11 +1077,14 @@ nav .nav-container label .material-symbols-outlined {
 nav .nav-container input[type=checkbox] {
   display: none;
 }
-nav .nav-container input[type=checkbox]:checked ~ .menu {
-  right: -1rem;
-}
-nav .nav-container input[type=checkbox]:checked ~ .menu-overlay {
-  display: block;
+@media (max-width: 640px) {
+  nav .nav-container input[type=checkbox]:checked ~ .menu {
+    right: -1rem;
+  }
+  nav .nav-container input[type=checkbox]:checked ~ .menu-overlay {
+    display: block;
+    pointer-events: auto;
+  }
 }
 nav .nav-container .menu-overlay {
   display: block;
@@ -1093,6 +1096,7 @@ nav .nav-container .menu-overlay {
   height: 100vh;
   z-index: 1;
   display: none;
+  pointer-events: none;
 }
 nav .nav-container .logo {
   background-color: #ffffff;

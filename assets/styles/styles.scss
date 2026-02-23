@@ -158,14 +158,19 @@ nav {
 
     input[type='checkbox'] {
       display: none;
+    }
 
-      &:checked {
-        &~.menu {
-          right: -1rem;
-        }
+    @media (max-width: $breakpoint-small) {
+      input[type='checkbox'] {
+        &:checked {
+          &~.menu {
+            right: -1rem;
+          }
 
-        &~.menu-overlay {
-          display: block;
+          &~.menu-overlay {
+            display: block;
+            pointer-events: auto;
+          }
         }
       }
     }
@@ -180,6 +185,7 @@ nav {
       height: 100vh;
       z-index: 1;
       display: none;
+      pointer-events: none;
     }
 
     .logo {
