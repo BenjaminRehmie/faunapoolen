@@ -622,6 +622,12 @@
             <option>Swim-serien</option>
             <option>Waterfront-serien</option>
           </select>
+          <select id="category" name="Storlek" required>
+            <option value="" disabled selected>Paket Storlek...</option>
+            <option>Små</option>
+            <option>Medium</option>
+            <option>Stor</option>
+          </select>
           <select id="planning" name="planning" required>
             <option value="" disabled selected>När planerar du att starta...</option>
             <option>Nu</option>
@@ -649,7 +655,7 @@
           <input id="location" name="plats" type="text" placeholder="Plats / postnummer..." required>
           <input type="text" name="firstName" placeholder="Ditt namn..." required="required" />
           <input type="email" name="email" placeholder="Din epost..." required="required" />
-          <input type="text" name="phone" placeholder="Ditt telefonnummer (valfritt)..." />
+          <input type="text" name="phone" placeholder="Ditt telefonnummer..." />
           <textarea name="message" placeholder="Berätta mer om ditt projekt..." required="required"></textarea>
           <!-- your other form fields go here -->
           <button type="submit">Skicka</button>
