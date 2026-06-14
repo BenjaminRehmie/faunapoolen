@@ -67,6 +67,13 @@ Preferred page-level variable pattern:
 - Generated/minified script: `assets/scripts/scripts-min.js`.
 - Images: `assets/images/`.
 - CodeKit config: `config.codekit3`.
+- English generator: `translate_site.py`.
+- English translation config: `translate_site.config.json`.
+- English translation plan: `TRANSLATION_PLAN.md`.
+- English output: `en/`.
+- Translation cache: `.translation-cache/sv-en.json`.
+- Python dependencies: `requirements.txt`.
+- CodeKit wake helper: `wake_codekit.py`.
 
 ## CodeKit Outputs
 
@@ -75,13 +82,51 @@ These files are generated outputs and should usually not be edited by hand:
 - `.html` files next to their `.kit` sources.
 - `assets/styles/styles.css` from `assets/styles/styles.scss`.
 - `assets/scripts/scripts-min.js` from `assets/scripts/scripts.js`.
+- `en/**/*.html` from `translate_site.py`.
 
 If a task requires a publish-ready result, the generated files may need to be present in the final diff because the site is static. Let CodeKit generate them from the source files.
+
+## English Translation Output
+
+The English site is generated after CodeKit has produced the Swedish `.html` files.
+
+- Use `translate_site.py` to generate matching English pages under `en/`.
+- Translation config lives in `translate_site.config.json`.
+- The full workflow is documented in `TRANSLATION_PLAN.md`.
+- The script uses `.translation-cache/sv-en.json` to avoid paying to translate unchanged text again.
+- Keep the cache unless the user intentionally wants to pay for a fresh translation pass.
+- Install dependencies with `python3 -m pip install --user -r requirements.txt` if BeautifulSoup is missing.
+- Real API translation requires `OPENAI_API_KEY`, typically loaded from `.env`. Never print or expose the key.
+- Run `python3 translate_site.py --dry-run` before real translation.
+- The script has hard cost guards: by default it blocks runs above 300 uncached strings or 50,000 uncached source characters. Do not bypass this. Use `--limit` for chunks, or deliberately raise the configured limit when the user approves a larger run.
+- The script preserves Swedish originals and writes only under `en/`.
+- Do not edit `en/**/*.html` directly unless explicitly asked. Change Swedish source/generator/cache and rerun the script.
+- English generated headings and page title metadata should use European sentence capitalization, not American title case. The generator normalizes `h1`-`h6`, `<title>`, `og:title`, and `twitter:title` text during rendering; preserve proper nouns and product names through `heading_preserve_terms` in `translate_site.config.json`.
+- CodeKit may generate docs HTML such as `AGENTS.html` or `TRANSLATION_PLAN.html`; keep these excluded from translation unless the user explicitly wants docs translated.
+- After generation, verify `lang="en"`, rewritten `/en/` internal links, and visible text with DOM-based checks that ignore HTML comments.
+- Some Swedish text exists in commented-out blocks in generated HTML. Do not count comment contents as visible mixed-language content.
+- The script repairs the known malformed `og:image:width` / `og:image:height` header fragment in English output before parsing. If fixing that source issue in `_header.kit`, verify all Swedish generated pages carefully.
+
+## Language Switcher
+
+- Visible navigation lives in `assets/components/_navigation.kit`, not `_header.kit`.
+- `_header.kit` is for document head, metadata, shared assets, and analytics.
+- The language switcher is a global nav feature with markup in `_navigation.kit`, styling in `assets/styles/styles.scss`, and behavior in `assets/scripts/scripts.js`.
+- The switcher uses flag-only UI with accessible labels. Current Swedish pages show the Swedish flag; generated English pages should show the English flag.
+- `scripts.js` updates language links based on the current path, preserves query/hash, marks the active language with `aria-current`, and closes the dropdown when clicking outside it.
+- Swedish language-switcher links intentionally point out of `/en/` and back to the original Swedish page. Other internal links in English output should stay under `/en/`.
+- After changing the switcher markup, CodeKit may not rebuild every page from the shared include. Use the CodeKit waking workflow below and verify generated pages with `rg "language-switcher"` or `rg "language-flag"`.
+- After changing switcher CSS or JS, verify `assets/styles/styles.css` and `assets/scripts/scripts-min.js` updated.
 
 ## Waking CodeKit
 
 CodeKit can miss changes when many files are touched at once, especially shared `.kit` includes.
 
+- Preferred workflow: run `python3 wake_codekit.py` after shared include changes or broad `.kit` edits. The helper prefers CodeKit's AppleScript `process file at path` command, batches the work, and reports whether generated `.html` mtimes changed.
+- If AppleScript is unavailable, use `python3 wake_codekit.py --method pulse`. Pulse mode temporarily adds a newline to page `.kit` files, waits, restores the original source exactly, then checks generated output.
+- To wake one stale page, run for that source file, for example `python3 wake_codekit.py blog/posts/small-features-for-small-spaces.kit`.
+- Use `python3 wake_codekit.py --dry-run` to see which files would be pulsed.
+- If the helper reports unchanged generated HTML, CodeKit is probably stopped or did not process the files. Ask the user to restart CodeKit, then rerun the helper.
 - `touch` alone is not reliable; it can update timestamps without making CodeKit process the file.
 - No-op rewrites are also unreliable. Prefer a real, harmless source edit such as adding or removing a blank line near the relevant include.
 - Save or rewrite files in small batches, then wait roughly 6-10 seconds before checking generated outputs.
@@ -106,6 +151,7 @@ CodeKit can miss changes when many files are touched at once, especially shared 
 
 - Public-facing copy should usually be concise Swedish.
 - If the user writes draft copy in English, translate it into natural Swedish for the site unless they ask otherwise.
+- Headings use European/sentence capitalization in both Swedish and English: capitalize the first word and proper nouns/product names only. Do not use American title case such as `Natural Pools`, `Garden Care & Maintenance`, or `Frequently Asked Questions`.
 - Keep headings clear and restrained. Avoid unnecessary fluff.
 - Be careful with landing pages and SEO-sensitive pages. Prefer targeted edits over sweeping rewrites.
 
@@ -120,6 +166,9 @@ These pages are known to perform very well in Google. Almost never change their 
 
 - After editing `.kit` files, check the matching generated `.html` if CodeKit updates it.
 - After editing SCSS, check the generated CSS if CodeKit updates it.
+- After editing JS, run `node --check assets/scripts/scripts.js` and check that CodeKit updates `assets/scripts/scripts-min.js`.
+- After translation work, run `python3 translate_site.py --dry-run`; a complete cache should report `Missing translations: 0`.
+- For generated English pages, prefer DOM-based verification with BeautifulSoup so HTML comments do not create false Swedish-content hits.
 - For visual changes, preview through the CodeKit local server when available: `http://wolfbook.local:5757`.
 - If the sandbox cannot resolve `wolfbook.local`, ask for or use approved local-network access for verification.
 - Git is optional for verification. Use it only for read-only context when helpful, such as `git status`, `git diff`, `git log`, or `git show`.

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="englishsitetranslationplan">English Site Translation Plan</h1>
+
+<p>This site stays CodeKit-first. CodeKit generates the Swedish <code>.html</code> files from <code>.kit</code> sources, then <code>translate_site.py</code> post-processes those generated Swedish files into a matching English tree under <code>en/</code>.</p>
+
+<h2 id="workflow">Workflow</h2>
+
+<ol>
+<li>Edit <code>.kit</code>, SCSS, and JS sources as usual.</li>
+<li>Let CodeKit generate the Swedish <code>.html</code>, CSS, and JS.</li>
+<li>Run:</li>
+</ol>
+
+<pre><code class="```sh">   python3 translate_site.py --dry-run
+
+</code></pre>
+
+<ol>
+<li>If the dry run looks right and <code>OPENAI_API_KEY</code> is available, run:</li>
+</ol>
+
+<pre><code class="```sh">   python3 translate_site.py
+
+</code></pre>
+
+<ol>
+<li>Review the generated <code>en/</code> pages locally.</li>
+</ol>
+
+<h2 id="design">Design</h2>
+
+<ul>
+<li>Source pages are generated Swedish <code>.html</code> files.</li>
+<li>Output pages are written under <code>en/</code> with matching paths.</li>
+<li>The Swedish originals are never modified.</li>
+<li>HTML structure, classes, IDs, scripts, stylesheets, image paths, and asset paths are preserved.</li>
+<li>Visible text nodes are translated.</li>
+<li>SEO text in <code>&lt;title&gt;</code>, description/keywords meta tags, Open Graph title/description, <code>alt</code>, <code>title</code>, <code>aria-label</code>, and placeholders is translated.</li>
+<li>Internal page links are rewritten to <code>/en/...</code>.</li>
+<li>Asset links such as <code>/assets/...</code> and <code>/images/...</code> are preserved.</li>
+<li>The language switcher gets correct static links for Swedish and English.</li>
+<li>English headings and page title metadata are normalized to European sentence capitalization during rendering, while configured proper nouns and product names are preserved.</li>
+<li>Translations are cached in <code>.translation-cache/sv-en.json</code>.</li>
+<li>Large uncached runs are blocked by default to avoid accidental API spend.</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+<li>The script uses BeautifulSoup; install dependencies with <code>python3 -m pip install --user -r requirements.txt</code>.</li>
+<li>Real translation requires <code>OPENAI_API_KEY</code>.</li>
+<li>The default model can be changed in <code>translate_site.config.json</code> or with <code>OPENAI_MODEL</code>.</li>
+<li>Use <code>--force</code> to overwrite existing English files.</li>
+<li>Default safety limits are 300 uncached strings, 50,000 uncached source characters, 8,000 characters for any single string, and 12,000 characters per API batch.</li>
+<li>Use <code>--limit</code> for incremental translation. To translate more in one run, deliberately raise <code>max_uncached_items_per_run</code> or <code>max_uncached_chars_per_run</code> in the config, or pass <code>--max-items</code> / <code>--max-chars</code> for that run.</li>
+</ul>
+
+</body>
+</html>
+

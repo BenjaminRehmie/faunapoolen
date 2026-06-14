@@ -542,8 +542,8 @@ nav .nav-container .nav-menu .menu .language-switcher {
 }
 nav .nav-container .nav-menu .menu .language-switcher .language-flag {
   display: block;
-  width: 1.5rem;
-  height: 1rem;
+  width: 1.25rem;
+  height: 0.8rem;
   overflow: hidden;
   border-radius: 2px;
   background-position: center;
@@ -561,9 +561,10 @@ nav .nav-container .nav-menu .menu .language-switcher summary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 3rem;
-  min-height: 2.25rem;
-  padding: 0.45rem 0.65rem;
+  box-sizing: border-box;
+  width: 2.55rem;
+  height: calc(0.85rem * 1.8 + 0.4rem);
+  padding: 0 0.65rem;
   cursor: pointer;
   list-style: none;
   user-select: none;
@@ -599,8 +600,8 @@ nav .nav-container .nav-menu .menu .language-switcher .language-options a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.25rem;
-  height: 2rem;
+  width: 2rem;
+  height: 1.7rem;
   padding: 0;
   border-radius: 999px;
   background-color: rgba(255, 255, 255, 0);
@@ -635,7 +636,7 @@ nav .nav-container .nav-menu .menu .language-switcher:not([open]) .language-opti
     width: auto;
   }
   nav .nav-container .nav-menu .menu .language-switcher summary {
-    width: 3rem;
+    width: 2.55rem;
   }
   nav .nav-container .nav-menu .menu .language-switcher .language-options {
     left: 0;

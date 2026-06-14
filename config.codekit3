@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34921",
   "files" : {
+    "\/.env" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.env",
+      "oF" : 0
+    },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
@@ -16,6 +24,14 @@
       "oA" : 0,
       "oAP" : "\/.gitignore",
       "oF" : 0
+    },
+    "\/.translation-cache\/sv-en.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.translation-cache\/sv-en-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/about\/index.html" : {
       "cB" : 0,
@@ -31,6 +47,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/about\/index.html",
+      "oF" : 0
+    },
+    "\/AGENTS.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/AGENTS.html",
       "oF" : 0
     },
     "\/AGENTS.md" : {
@@ -2596,6 +2620,222 @@
       "oAP" : "\/contact\/index.html",
       "oF" : 0
     },
+    "\/en\/about\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/about\/index.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/index.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/5-common-problems-installing-a-nature-pool.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/5-common-problems-installing-a-nature-pool.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/algae-control-and-maintenance-tips.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/algae-control-and-maintenance-tips.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/blog-post-template.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/blog-post-template.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/build-your-own-nature-pool.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/build-your-own-nature-pool.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/can-i-use-water-storage-solutions-when-traditional-wells-arent-an-option.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/can-i-use-water-storage-solutions-when-traditional-wells-arent-an-option.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/creating-harmony-intergrating-water-features-with-your-landscape.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/creating-harmony-intergrating-water-features-with-your-landscape.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/difference-between-normal-pool-and-natural-pool.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/difference-between-normal-pool-and-natural-pool.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/how-faunapoolen-helps-golf-clubs-manage-ponds-lakes-and-streams.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/how-faunapoolen-helps-golf-clubs-manage-ponds-lakes-and-streams.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/how-filtering-works-with-nature-pools.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/how-filtering-works-with-nature-pools.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/pool-conversions.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/pool-conversions.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/small-features-for-small-spaces.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/small-features-for-small-spaces.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/sports-stars-natural-ponds.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/sports-stars-natural-ponds.html",
+      "oF" : 0
+    },
+    "\/en\/blog\/posts\/why-you-should-get-a-natural-pool.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/blog\/posts\/why-you-should-get-a-natural-pool.html",
+      "oF" : 0
+    },
+    "\/en\/contact\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/contact\/index.html",
+      "oF" : 0
+    },
+    "\/en\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/index.html",
+      "oF" : 0
+    },
+    "\/en\/koi-pond-series.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/koi-pond-series.html",
+      "oF" : 0
+    },
+    "\/en\/nature-pools.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/nature-pools.html",
+      "oF" : 0
+    },
+    "\/en\/plunge-series.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/plunge-series.html",
+      "oF" : 0
+    },
+    "\/en\/pond-packages-landing.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/pond-packages-landing.html",
+      "oF" : 0
+    },
+    "\/en\/pricing\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/pricing\/index.html",
+      "oF" : 0
+    },
+    "\/en\/services\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/services\/index.html",
+      "oF" : 0
+    },
+    "\/en\/suppliers\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/suppliers\/index.html",
+      "oF" : 0
+    },
+    "\/en\/sweden-expert-naturpooler-biopooler-ecopooler-kemikaliefria-pooler-baddammar\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/sweden-expert-naturpooler-biopooler-ecopooler-kemikaliefria-pooler-baddammar\/index.html",
+      "oF" : 0
+    },
+    "\/en\/swim-series.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/swim-series.html",
+      "oF" : 0
+    },
+    "\/en\/waterfront-series.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/waterfront-series.html",
+      "oF" : 0
+    },
     "\/faunapoolen.code-workspace" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2727,6 +2967,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/requirements.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/requirements.txt",
+      "oF" : 0
+    },
     "\/robots.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2797,6 +3045,57 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/swim-series.html",
+      "oF" : 0
+    },
+    "\/translate_site.config.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/translate_site.config-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/translate_site.py" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/translate_site.py",
+      "oF" : 0
+    },
+    "\/TRANSLATION_PLAN.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/TRANSLATION_PLAN.html",
+      "oF" : 0
+    },
+    "\/TRANSLATION_PLAN.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/TRANSLATION_PLAN.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/wake_codekit.py" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/wake_codekit.py",
       "oF" : 0
     },
     "\/waterfront-series.html" : {

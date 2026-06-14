@@ -55,6 +55,13 @@ if (languageSwitcherEl) {
       link.removeAttribute('aria-current');
     }
   });
+
+  document.addEventListener('click', (event) => {
+    if (!languageSwitcherEl.open || !(event.target instanceof Node)) return;
+    if (!languageSwitcherEl.contains(event.target)) {
+      languageSwitcherEl.open = false;
+    }
+  });
 }
 
 const accordionItems = document.querySelectorAll('.accordion-item');

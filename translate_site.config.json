@@ -1,0 +1,78 @@
+{
+  "source": ".",
+  "target": "en",
+  "target_url_prefix": "/en",
+  "from": "sv",
+  "to": "en",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "cache": ".translation-cache/sv-en.json",
+  "batch_size": 30,
+  "max_batch_chars": 12000,
+  "max_single_text_chars": 8000,
+  "max_uncached_items_per_run": 300,
+  "max_uncached_chars_per_run": 50000,
+  "exclude": [
+    "en/**",
+    "assets/**",
+    "README.html",
+    "AGENTS.html",
+    "TRANSLATION_PLAN.html"
+  ],
+  "asset_prefixes": [
+    "/assets/",
+    "/images/",
+    "/favicon",
+    "/robots.txt"
+  ],
+  "skip_tags": [
+    "script",
+    "style",
+    "svg",
+    "noscript"
+  ],
+  "translate_attributes": [
+    "alt",
+    "aria-label",
+    "placeholder",
+    "title"
+  ],
+  "preserve_terms": [
+    "Faunapoolen",
+    "Aquascape",
+    "CodeKit"
+  ],
+  "heading_preserve_terms": [
+    "Faunapoolen",
+    "Aquascape",
+    "Aquascape Ecosystem",
+    "Ecosystem",
+    "AquaBlox",
+    "CodeKit",
+    "Gotland",
+    "Sweden",
+    "Swedish",
+    "Scandinavian",
+    "Europe",
+    "EU",
+    "SEK",
+    "S",
+    "M",
+    "L",
+    "B",
+    "V",
+    "YouTube",
+    "Inc",
+    "Alan",
+    "Decker",
+    "R",
+    "Moerings",
+    "Dangarden",
+    "Stenbolaget",
+    "Micke",
+    "Nilsson",
+    "Plunge",
+    "Swim",
+    "Waterfront"
+  ]
+}
