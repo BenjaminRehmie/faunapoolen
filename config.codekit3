@@ -7,7 +7,7 @@
       "uuidString" : "087C504F-7CD1-4AD0-921B-6BAFCFDF1715"
     }
   ],
-  "creatorBuild" : "34689",
+  "creatorBuild" : "34921",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -32,6 +32,25 @@
       "oA" : 0,
       "oAP" : "\/about\/index.html",
       "oF" : 0
+    },
+    "\/AGENTS.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/AGENTS.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/assets\/components\/_blog-entry.kit" : {
       "cB" : 0,
@@ -797,7 +816,7 @@
     },
     "\/assets\/images\/gallery\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 267782,
+      "iS" : 1159664,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/gallery\/5.jpg",
@@ -901,7 +920,7 @@
     },
     "\/assets\/images\/got1.jpeg" : {
       "ft" : 16384,
-      "iS" : 8166256,
+      "iS" : 309675,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/got1.jpg",
@@ -992,7 +1011,7 @@
     },
     "\/assets\/images\/got8.jpeg" : {
       "ft" : 16384,
-      "iS" : 581458,
+      "iS" : 241218,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/got8.jpg",
@@ -1522,7 +1541,7 @@
     },
     "\/assets\/images\/plunge\/aquascape-plunge2.png" : {
       "ft" : 32768,
-      "iS" : 3515282,
+      "iS" : 2618390,
       "oA" : 0,
       "oAP" : "\/assets\/images\/plunge\/aquascape-plunge2.png",
       "oF" : 0,
@@ -1626,20 +1645,20 @@
     },
     "\/assets\/images\/pricing-landscape.jpg" : {
       "ft" : 16384,
-      "iS" : 903121,
+      "iS" : 183639,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/pricing-landscape.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/pricing-nature-pool.jpg" : {
       "ft" : 16384,
-      "iS" : 1196667,
+      "iS" : 1010201,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/pricing-nature-pool.jpg",
@@ -1847,7 +1866,7 @@
     },
     "\/assets\/images\/services-background-2.jpg" : {
       "ft" : 16384,
-      "iS" : 1367100,
+      "iS" : 772816,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/services-background-2.jpg",
@@ -2040,7 +2059,7 @@
     },
     "\/assets\/images\/swim\/aquascape-swim9.png" : {
       "ft" : 32768,
-      "iS" : 4195276,
+      "iS" : 2153686,
       "oA" : 0,
       "oAP" : "\/assets\/images\/swim\/aquascape-swim9.png",
       "oF" : 0,
@@ -2142,7 +2161,7 @@
     },
     "\/assets\/images\/waterfront\/aquascape-waterfront-hero-image.jpg" : {
       "ft" : 16384,
-      "iS" : 570677,
+      "iS" : 680726,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/waterfront\/aquascape-waterfront-hero-image.jpg",
@@ -2278,19 +2297,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/assets\/styles\/_catalyst.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/styles\/_catalyst.css",
-      "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
     },
     "\/assets\/styles\/_variables.scss" : {
       "aP" : 0,
@@ -3130,44 +3136,16 @@
         "active" : 0,
         "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
       },
-      "array-bracket-newline" : {
-        "active" : 0,
-        "optionString" : "{'multiline': true, 'minItems': null}"
-      },
-      "array-bracket-spacing" : {
-        "active" : 0,
-        "optionString" : "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
-      },
       "array-callback-return" : {
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
-      },
-      "array-element-newline" : {
-        "active" : 0,
-        "optionString" : "'always'"
       },
       "arrow-body-style" : {
         "active" : 0,
         "optionString" : "'as-needed', {'requireReturnForObjectLiteral': false}"
       },
-      "arrow-parens" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "arrow-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': true}"
-      },
       "block-scoped-var" : {
         "active" : 0
-      },
-      "block-spacing" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "brace-style" : {
-        "active" : 0,
-        "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
       "camelcase" : {
         "active" : 0,
@@ -3181,25 +3159,9 @@
         "active" : 0,
         "optionString" : "{'exceptMethods': [], 'enforceForClassFields': true}"
       },
-      "comma-dangle" : {
-        "active" : 1,
-        "optionString" : "'never'"
-      },
-      "comma-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
-      },
-      "comma-style" : {
-        "active" : 0,
-        "optionString" : "'last'"
-      },
       "complexity" : {
         "active" : 0,
         "optionString" : "20"
-      },
-      "computed-property-spacing" : {
-        "active" : 0,
-        "optionString" : "'never', {'enforceForClassMembers': true}"
       },
       "consistent-return" : {
         "active" : 0,
@@ -3225,17 +3187,9 @@
       "default-param-last" : {
         "active" : 0
       },
-      "dot-location" : {
-        "active" : 0,
-        "optionString" : "'object'"
-      },
       "dot-notation" : {
         "active" : 0,
         "optionString" : "{'allowKeywords': false}"
-      },
-      "eol-last" : {
-        "active" : 0,
-        "optionString" : "'always'"
       },
       "eqeqeq" : {
         "active" : 0,
@@ -3243,10 +3197,6 @@
       },
       "for-direction" : {
         "active" : 1
-      },
-      "func-call-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
       },
       "func-name-matching" : {
         "active" : 0,
@@ -3259,18 +3209,6 @@
       "func-style" : {
         "active" : 0,
         "optionString" : "'expression'"
-      },
-      "function-call-argument-newline" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "function-paren-newline" : {
-        "active" : 0,
-        "optionString" : "'multiline'"
-      },
-      "generator-star-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': false}"
       },
       "getter-return" : {
         "active" : 1,
@@ -3295,41 +3233,9 @@
         "active" : 0,
         "optionString" : "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
       },
-      "implicit-arrow-linebreak" : {
-        "active" : 0,
-        "optionString" : "'beside'"
-      },
-      "indent" : {
-        "active" : 0,
-        "optionString" : "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
-      },
       "init-declarations" : {
         "active" : 0,
         "optionString" : "'always',  {'ignoreForLoopInit': true}"
-      },
-      "jsx-quotes" : {
-        "active" : 0,
-        "optionString" : "'prefer-double'"
-      },
-      "key-spacing" : {
-        "active" : 0,
-        "optionString" : "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
-      },
-      "keyword-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
-      },
-      "linebreak-style" : {
-        "active" : 0,
-        "optionString" : "'unix'"
-      },
-      "lines-around-comment" : {
-        "active" : 0,
-        "optionString" : "{'beforeBlockComment': true}"
-      },
-      "lines-between-class-members" : {
-        "active" : 0,
-        "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
       "logical-assignment-operators" : {
         "active" : 0,
@@ -3342,10 +3248,6 @@
       "max-depth" : {
         "active" : 0,
         "optionString" : "{'max': 4}"
-      },
-      "max-len" : {
-        "active" : 0,
-        "optionString" : "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
       },
       "max-lines" : {
         "active" : 0,
@@ -3367,25 +3269,9 @@
         "active" : 0,
         "optionString" : "{'max': 10}, {'ignoreTopLevelFunctions': true}"
       },
-      "max-statements-per-line" : {
-        "active" : 0,
-        "optionString" : "{'max': 1}"
-      },
-      "multiline-ternary" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
       "new-cap" : {
         "active" : 0,
         "optionString" : "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
-      },
-      "new-parens" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "newline-per-chained-call" : {
-        "active" : 0,
-        "optionString" : "{'ignoreChainWithDepth': 2}"
       },
       "no-alert" : {
         "active" : 0
@@ -3418,10 +3304,6 @@
       "no-cond-assign" : {
         "active" : 1,
         "optionString" : "'except-parens'"
-      },
-      "no-confusing-arrow" : {
-        "active" : 0,
-        "optionString" : "{'allowParens': true, 'onlyOneSimpleParam': false}"
       },
       "no-console" : {
         "active" : 0,
@@ -3518,19 +3400,9 @@
       "no-extra-label" : {
         "active" : 0
       },
-      "no-extra-parens" : {
-        "active" : 0,
-        "optionString" : "'all'"
-      },
-      "no-extra-semi" : {
-        "active" : 0
-      },
       "no-fallthrough" : {
         "active" : 1,
         "optionString" : "{'allowEmptyCase': false}"
-      },
-      "no-floating-decimal" : {
-        "active" : 0
       },
       "no-func-assign" : {
         "active" : 1
@@ -3601,28 +3473,12 @@
         "active" : 1,
         "optionString" : "{'allowEscape': false}"
       },
-      "no-mixed-operators" : {
-        "active" : 0,
-        "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
-      },
-      "no-mixed-spaces-and-tabs" : {
-        "active" : 0,
-        "optionString" : ""
-      },
       "no-multi-assign" : {
         "active" : 0,
         "optionString" : "{'ignoreNonDeclaration': false}"
       },
-      "no-multi-spaces" : {
-        "active" : 0,
-        "optionString" : "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
-      },
       "no-multi-str" : {
         "active" : 0
-      },
-      "no-multiple-empty-lines" : {
-        "active" : 0,
-        "optionString" : "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
       },
       "no-negated-condition" : {
         "active" : 0
@@ -3638,9 +3494,6 @@
       },
       "no-new-native-nonconstructor" : {
         "active" : 1
-      },
-      "no-new-symbol" : {
-        "active" : 0
       },
       "no-new-wrappers" : {
         "active" : 0
@@ -3735,10 +3588,6 @@
       "no-sparse-arrays" : {
         "active" : 1
       },
-      "no-tabs" : {
-        "active" : 0,
-        "optionString" : "{allowIndentationTabs: false}"
-      },
       "no-template-curly-in-string" : {
         "active" : 0
       },
@@ -3751,9 +3600,8 @@
       "no-throw-literal" : {
         "active" : 0
       },
-      "no-trailing-spaces" : {
-        "active" : 0,
-        "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
+      "no-unassigned-vars" : {
+        "active" : 1
       },
       "no-undef" : {
         "active" : 1,
@@ -3815,6 +3663,9 @@
         "active" : 0,
         "optionString" : "{'functions': true, 'classes': true, 'variables': true, 'allowNamedExports': false}"
       },
+      "no-useless-assignment" : {
+        "active" : 1
+      },
       "no-useless-backreference" : {
         "active" : 1
       },
@@ -3835,7 +3686,8 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowRegexCharacters': []}"
       },
       "no-useless-rename" : {
         "active" : 0,
@@ -3855,27 +3707,8 @@
         "active" : 0,
         "optionString" : "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
       },
-      "no-whitespace-before-property" : {
-        "active" : 0
-      },
       "no-with" : {
         "active" : 1
-      },
-      "nonblock-statement-body-position" : {
-        "active" : 0,
-        "optionString" : "'beside'"
-      },
-      "object-curly-newline" : {
-        "active" : 0,
-        "optionString" : "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
-      },
-      "object-curly-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "object-property-newline" : {
-        "active" : 0,
-        "optionString" : "{'allowAllPropertiesOnSameLine': true}"
       },
       "object-shorthand" : {
         "active" : 0,
@@ -3885,25 +3718,9 @@
         "active" : 0,
         "optionString" : "'always'"
       },
-      "one-var-declaration-per-line" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
       "operator-assignment" : {
         "active" : 0,
         "optionString" : "'always'"
-      },
-      "operator-linebreak" : {
-        "active" : 0,
-        "optionString" : "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
-      },
-      "padded-blocks" : {
-        "active" : 0,
-        "optionString" : "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
-      },
-      "padding-line-between-statements" : {
-        "active" : 0,
-        "optionString" : "{blankLine: 'always', prev:'*', next:'return'}"
       },
       "prefer-arrow-callback" : {
         "active" : 0
@@ -3947,17 +3764,12 @@
       "prefer-template" : {
         "active" : 0
       },
-      "quote-props" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "quotes" : {
-        "active" : 0,
-        "optionString" : "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+      "preserve-caught-error" : {
+        "active" : 1,
+        "optionString" : "{'requireCatchParameter': false}"
       },
       "radix" : {
-        "active" : 0,
-        "optionString" : "'always'"
+        "active" : 0
       },
       "require-atomic-updates" : {
         "active" : 0,
@@ -3973,22 +3785,6 @@
       "require-yield" : {
         "active" : 1
       },
-      "rest-spread-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "semi" : {
-        "active" : 0,
-        "optionString" : "'always', {'omitLastInOneLineBlock': false}"
-      },
-      "semi-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
-      },
-      "semi-style" : {
-        "active" : 0,
-        "optionString" : "'last'"
-      },
       "sort-imports" : {
         "active" : 0,
         "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
@@ -4001,48 +3797,12 @@
         "active" : 0,
         "optionString" : "{'ignoreCase': false}"
       },
-      "space-before-blocks" : {
-        "active" : 0,
-        "optionString" : "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
-      },
-      "space-before-function-paren" : {
-        "active" : 0,
-        "optionString" : "{'anonymous': 'always', 'named': 'never'}"
-      },
-      "space-in-parens" : {
-        "active" : 0,
-        "optionString" : "'never', {'exceptions': []}"
-      },
-      "space-infix-ops" : {
-        "active" : 0,
-        "optionString" : "{'int32Hint': false}"
-      },
-      "space-unary-ops" : {
-        "active" : 0,
-        "optionString" : "{'words': true, 'nonwords': false, 'overrides': {}}"
-      },
-      "spaced-comment" : {
-        "active" : 0,
-        "optionString" : "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
-      },
       "strict" : {
         "active" : 0,
         "optionString" : "'safe'"
       },
-      "switch-colon-spacing" : {
-        "active" : 0,
-        "optionString" : "{'after': true, 'before': false}"
-      },
       "symbol-description" : {
         "active" : 0
-      },
-      "template-curly-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "template-tag-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
       },
       "unicode-bom" : {
         "active" : 0,
@@ -4058,17 +3818,6 @@
       },
       "vars-on-top" : {
         "active" : 0
-      },
-      "wrap-iife" : {
-        "active" : 0,
-        "optionString" : "'outside'"
-      },
-      "wrap-regex" : {
-        "active" : 0
-      },
-      "yield-star-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
       },
       "yoda" : {
         "active" : 0,

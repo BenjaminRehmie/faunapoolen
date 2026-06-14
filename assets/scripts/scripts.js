@@ -1,5 +1,6 @@
 const headerEl = document.querySelector('.navigation');
 const menuStateEl = document.getElementById('menu-state');
+const languageSwitcherEl = document.querySelector('.language-switcher');
 const MOBILE_BREAKPOINT = 640;
 
 const resetMenuStateOnDesktop = () => {
@@ -19,6 +20,42 @@ window.addEventListener('scroll', () => {
 window.addEventListener('resize', resetMenuStateOnDesktop);
 window.addEventListener('pageshow', resetMenuStateOnDesktop);
 resetMenuStateOnDesktop();
+
+if (languageSwitcherEl) {
+  const currentFlagEl = languageSwitcherEl.querySelector('.language-current');
+  const summaryEl = languageSwitcherEl.querySelector('summary');
+  const languageLinks = languageSwitcherEl.querySelectorAll('[data-language-link]');
+  const isEnglishPage = window.location.pathname === '/en' || window.location.pathname.startsWith('/en/');
+  const swedishPath = isEnglishPage ? window.location.pathname.replace(/^\/en(?=\/|$)/, '') || '/' : window.location.pathname;
+  const englishPath = isEnglishPage ? window.location.pathname : `/en${window.location.pathname === '/' ? '/' : window.location.pathname}`;
+  const suffix = `${window.location.search}${window.location.hash}`;
+  const paths = {
+    sv: `${swedishPath}${suffix}`,
+    en: `${englishPath}${suffix}`,
+  };
+  const currentLanguage = isEnglishPage ? 'en' : 'sv';
+
+  if (currentFlagEl) {
+    currentFlagEl.classList.remove('language-flag-sv', 'language-flag-en');
+    currentFlagEl.classList.add(`language-flag-${currentLanguage}`);
+  }
+
+  if (summaryEl) {
+    summaryEl.setAttribute('aria-label', currentLanguage === 'en' ? 'Choose language' : 'Välj språk');
+  }
+
+  languageLinks.forEach((link) => {
+    const language = link.dataset.languageLink;
+    if (!paths[language]) return;
+
+    link.href = paths[language];
+    if (language === currentLanguage) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+}
 
 const accordionItems = document.querySelectorAll('.accordion-item');
 
