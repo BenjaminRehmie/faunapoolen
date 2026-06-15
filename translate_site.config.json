@@ -2,6 +2,7 @@
   "source": ".",
   "target": "en",
   "target_url_prefix": "/en",
+  "site_url": "https://faunapoolen.se",
   "from": "sv",
   "to": "en",
   "provider": "openai",
@@ -17,7 +18,8 @@
     "assets/**",
     "README.html",
     "AGENTS.html",
-    "TRANSLATION_PLAN.html"
+    "TRANSLATION_PLAN.html",
+    "blog/posts/blog-post-template.html"
   ],
   "asset_prefixes": [
     "/assets/",

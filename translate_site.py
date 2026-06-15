@@ -263,6 +263,25 @@ def english_url_for(source_url: str, target_url_prefix: str) -> str:
     return prefix + source_url
 
 
+def absolute_site_url(url: str, config: Dict[str, Any]) -> str:
+    if URL_RE.search(url):
+        return url
+    base = str(config.get("site_url", "")).rstrip("/")
+    if not base:
+        return url
+    path = url if url.startswith("/") else f"/{url}"
+    return base + path
+
+
+def rel_values(tag: Tag) -> set:
+    rel = tag.get("rel", [])
+    if isinstance(rel, str):
+        values = rel.split()
+    else:
+        values = [str(value) for value in rel]
+    return {value.lower() for value in values}
+
+
 def discover_jobs(config: Dict[str, Any], limit: Optional[int] = None) -> List[PageJob]:
     source_root = Path(config["source"]).resolve()
     target_root = Path(config["target"])
@@ -358,6 +377,20 @@ def transform_soup(
         if isinstance(classes, list) and "language-current" in classes:
             tag["class"] = [class_name for class_name in classes if class_name not in {"language-flag-sv", "language-flag-en"}]
             tag["class"].append("language-flag-en")
+
+        if tag.name == "link" and str(tag.get("href", "")) == "/images/favicon.ico":
+            tag["href"] = "/assets/images/favicon.ico"
+
+        if tag.name == "link" and tag.has_attr("href"):
+            rels = rel_values(tag)
+            hreflang = str(tag.get("hreflang", "")).lower()
+            if "canonical" in rels:
+                tag["href"] = absolute_site_url(job.english_url, config)
+            elif "alternate" in rels and hreflang:
+                if hreflang == "en":
+                    tag["href"] = absolute_site_url(job.english_url, config)
+                elif hreflang in {"sv", "x-default"}:
+                    tag["href"] = absolute_site_url(job.source_url, config)
 
         if tag.name in skip_tags:
             continue

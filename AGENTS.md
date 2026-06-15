@@ -41,6 +41,9 @@ Preferred page-level variable pattern:
 <!-- $ogDescription = Short page description here -->
 <!-- $ogImageWidth = 1200 -->
 <!-- $ogImageHeight = 630 -->
+<!-- $canonicalUrl = https://faunapoolen.se/about/ -->
+<!-- $alternateSvUrl = https://faunapoolen.se/about/ -->
+<!-- $alternateEnUrl = https://faunapoolen.se/en/about/ -->
 
 <!-- @include '/assets/components/_header.kit' -->
 ```
@@ -52,7 +55,7 @@ Preferred page-level variable pattern:
 - Use one variable per special comment.
 - Undefined variables cause errors unless used with Kit's optional `?` syntax, such as `<!-- $pageTitle? -->`.
 - Use `nil` when a variable should intentionally render as nothing.
-- Current canonical header variables are `pageTitle`, `metaAuthor`, `metaDescription`, `metaKeywords`, `ogImage`, `ogTitle`, `ogDescription`, `ogImageWidth`, and `ogImageHeight`.
+- Current canonical header variables are `pageTitle`, `metaAuthor`, `metaDescription`, `metaKeywords`, `ogImage`, `ogTitle`, `ogDescription`, `ogImageWidth`, `ogImageHeight`, `canonicalUrl`, `alternateSvUrl`, and `alternateEnUrl`.
 - Preserve existing meta values unless the user explicitly asks to customize SEO for a page.
 
 ## Important Paths

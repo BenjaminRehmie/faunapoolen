@@ -1,3 +1,5 @@
 .env
 .DS_Store
 config.codekit3.backup
+blog/posts/blog-post-template.html
+en/blog/posts/blog-post-template.html

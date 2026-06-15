@@ -49,14 +49,6 @@
       "oAP" : "\/about\/index.html",
       "oF" : 0
     },
-    "\/AGENTS.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/AGENTS.html",
-      "oF" : 0
-    },
     "\/AGENTS.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -66,7 +58,7 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/AGENTS.html",
       "oF" : 0,
       "oFM" : 0,
@@ -2420,14 +2412,6 @@
       "oAP" : "\/blog\/posts\/algae-control-and-maintenance-tips.html",
       "oF" : 0
     },
-    "\/blog\/posts\/blog-post-template.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/blog\/posts\/blog-post-template.html",
-      "oF" : 0
-    },
     "\/blog\/posts\/blog-post-template.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2650,14 +2634,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/en\/blog\/posts\/algae-control-and-maintenance-tips.html",
-      "oF" : 0
-    },
-    "\/en\/blog\/posts\/blog-post-template.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/en\/blog\/posts\/blog-post-template.html",
       "oF" : 0
     },
     "\/en\/blog\/posts\/build-your-own-nature-pool.html" : {
@@ -2940,14 +2916,6 @@
       "oAP" : "\/pricing\/index.html",
       "oF" : 0
     },
-    "\/README.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0
-    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2957,7 +2925,7 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/README.html",
       "oF" : 0,
       "oFM" : 0,
@@ -2997,6 +2965,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/services\/index.html",
+      "oF" : 0
+    },
+    "\/sitemap.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sitemap.xml",
       "oF" : 0
     },
     "\/suppliers\/index.html" : {
@@ -3063,14 +3039,6 @@
       "oAP" : "\/translate_site.py",
       "oF" : 0
     },
-    "\/TRANSLATION_PLAN.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/TRANSLATION_PLAN.html",
-      "oF" : 0
-    },
     "\/TRANSLATION_PLAN.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -3080,7 +3048,7 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/TRANSLATION_PLAN.html",
       "oF" : 0,
       "oFM" : 0,
@@ -4246,7 +4214,7 @@
       "strictUnits" : 0
     },
     "languageDefaultsMARKDOWN" : {
-      "autoOutputAction" : 0,
+      "autoOutputAction" : 1,
       "autoOutputPathFilenamePattern" : "*.html",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
