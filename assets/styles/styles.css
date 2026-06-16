@@ -349,6 +349,20 @@ button:hover {
   font-size: 0.8rem;
 }
 
+.pricing-series-links {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  gap: 0.25rem;
+  margin-top: 0.15rem;
+}
+.pricing-series-links a {
+  font-weight: 500;
+}
+.pricing-series-links .material-symbols-outlined {
+  font-size: 1rem;
+}
+
 .text-large {
   font-size: 21px;
 }

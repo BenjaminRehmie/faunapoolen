@@ -94,6 +94,7 @@ If a task requires a publish-ready result, the generated files may need to be pr
 The English site is generated after CodeKit has produced the Swedish `.html` files.
 
 - Use `translate_site.py` to generate matching English pages under `en/`.
+- Do not run `translate_site.py`, including dry runs or real generation, unless the user explicitly asks for English generation or translation work. Treat English generation as an opt-in publish step; if a Swedish-only change leaves English output stale, say so instead of regenerating it.
 - Translation config lives in `translate_site.config.json`.
 - The full workflow is documented in `TRANSLATION_PLAN.md`.
 - The script uses `.translation-cache/sv-en.json` to avoid paying to translate unchanged text again.

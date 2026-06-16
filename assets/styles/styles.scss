@@ -370,6 +370,22 @@ button {
   font-size: 0.8rem;
 }
 
+.pricing-series-links {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  gap: 0.25rem;
+  margin-top: 0.15rem;
+
+  a {
+    font-weight: $font-semi;
+  }
+
+  .material-symbols-outlined {
+    font-size: 1rem;
+  }
+}
+
 .text-large {
   font-size: $font-size-large;
 

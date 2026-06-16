@@ -49,6 +49,14 @@
       "oAP" : "\/about\/index.html",
       "oF" : 0
     },
+    "\/AGENTS.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/AGENTS.html",
+      "oF" : 0
+    },
     "\/AGENTS.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2916,6 +2924,14 @@
       "oAP" : "\/pricing\/index.html",
       "oF" : 0
     },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
+    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -3037,6 +3053,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/translate_site.py",
+      "oF" : 0
+    },
+    "\/TRANSLATION_PLAN.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/TRANSLATION_PLAN.html",
       "oF" : 0
     },
     "\/TRANSLATION_PLAN.md" : {
