@@ -17,11 +17,19 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-  <meta property="og:image" content="/assets/images/og-image.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://faunapoolen.se/about/" />
+  <meta property="og:site_name" content="Faunapoolen" />
+  <meta property="og:locale" content="sv_SE" />
+  <meta property="og:image" content="https://faunapoolen.se/assets/images/og-image.jpg" />
   <meta property="og:title" content="Om Faunapoolen" />
   <meta property="og:description" content="Faunapoolen skapar ekologiska pooler, organiska pooler och naturliga vattenlandskap utan klor." />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Om Faunapoolen" />
+  <meta name="twitter:description" content="Faunapoolen skapar ekologiska pooler, organiska pooler och naturliga vattenlandskap utan klor." />
+  <meta name="twitter:image" content="https://faunapoolen.se/assets/images/og-image.jpg" />
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
@@ -47,6 +55,49 @@
 
     gtag('config', 'G-E1BFSP43WZ');
   </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://faunapoolen.se/#organization",
+          "name": "Faunapoolen AB",
+          "url": "https://faunapoolen.se/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://faunapoolen.se/assets/images/logo.png"
+          },
+          "image": "https://faunapoolen.se/assets/images/og-image.jpg",
+          "telephone": "+46735406757"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://faunapoolen.se/#website",
+          "url": "https://faunapoolen.se/",
+          "name": "Faunapoolen",
+          "inLanguage": "sv-SE",
+          "publisher": {
+            "@id": "https://faunapoolen.se/#organization"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://faunapoolen.se/about/#webpage",
+          "url": "https://faunapoolen.se/about/",
+          "name": "Om Faunapoolen | Ekologiska pooler och vattenlandskap",
+          "description": "Lär känna Faunapoolen och vårt arbete med ekologisk pool, organisk pool och hållbara vattenlandskap utan klor i svenska trädgårdar.",
+          "inLanguage": "sv-SE",
+          "isPartOf": {
+            "@id": "https://faunapoolen.se/#website"
+          },
+          "publisher": {
+            "@id": "https://faunapoolen.se/#organization"
+          }
+        }
+      ]
+    }
+  </script>
 </head>
 
 <body>
@@ -54,7 +105,7 @@
   <main>
 
 <div class="background-image tight-fade">
-  <img src="/assets/images/header-background-5.jpg">
+  <img src="/assets/images/header-background-5.jpg" alt="Naturligt vattenlandskap från Faunapoolen" decoding="async" fetchpriority="high">
 </div>
 
 <header>
@@ -74,16 +125,32 @@
     </div>
   </div>
 </section>
+<section class="gallery">
+  <img src="/assets/images/got1.jpeg" alt="Naturpool med stenlagd kant" loading="lazy" decoding="async" />
+  <img src="/assets/images/gallery/10.jpg" alt="Vattenlandskap med naturlig plantering" loading="lazy" decoding="async" />
+  <img src="/assets/images/gallery/4.jpg" alt="Litet vattenfall i natursten" loading="lazy" decoding="async" />
+  <img src="/assets/images/gallery/5.jpg" alt="Trädgårdsdamm med klart vatten" loading="lazy" decoding="async" />
+  <img src="/assets/images/gallery/2.jpg" alt="Naturpool integrerad i trädgården" loading="lazy" decoding="async" />
+  <img src="/assets/images/gallery/13.jpg" alt="Ekologisk pool med vattenväxter" loading="lazy" decoding="async" />
+  <img src="/assets/images/gallery/14.png" alt="Naturpool med gångstenar" loading="lazy" decoding="async" />
+  <img src="/assets/images/gallery/15.png" alt="Vattenlandskap med sten och växtlighet" loading="lazy" decoding="async" />
+  <img src="/assets/images/gallery/16.png" alt="Ekologisk pool med naturstenskanter" loading="lazy" decoding="async" />
+  <img src="/assets/images/got5.jpeg" alt="Klar naturpool i svensk trädgård" loading="lazy" decoding="async" />
+  <img src="/assets/images/got3.jpeg" alt="Vattenfall och sten i vattenlandskap" loading="lazy" decoding="async" />
+  <img src="/assets/images/got8.jpeg" alt="Naturlig damm med växter och sten" loading="lazy" decoding="async" />
+</section>
+
 <section class="cta">
   <div class="section-content">
 
     <h2>Kontakta oss för ett gratis prisförslag</h2>
-    <p class="text-large">Vi kan skapa ett skräddarsytt paket som passar dina behov. Kontakta oss för en kostnadsfri telefonkonsultation och vi hjälper dig att ta fram ett erbjudande som passar just dig!</p>
+    <p class="text-large">Vi kan skapa ett skräddarsytt paket som passar dina behov. Kontakta oss för en kostnadsfri telefonkonsultation, så hjälper vi dig att ta fram ett erbjudande som passar just dig.</p>
     <div class="mt-2 mb-2 text-center">
       <a class="button button-large" href="/contact/"> Få ett gratis prisförslag </a>
     </div>
   </div>
 </section>
+
 <nav class="navigation">
   <div class="nav-container">
     <div class="nav-menu">
@@ -96,6 +163,7 @@
       <div class="menu">
         <a href="/">Start</a>
         <a href="/services/">Tjänster</a>
+        <a href="/pricing/">Priser</a>
         <a href="/blog/">Blogg</a>
         <a href="/suppliers/">Leverantörer</a>
         <a href="/about/">Om oss</a>
@@ -116,7 +184,7 @@
       </div>
     </div>
     <a href="/" class="logo">
-      <img src="/assets/images/logo.png" alt="" />
+      <img src="/assets/images/logo.png" alt="Faunapoolen" loading="eager" decoding="async" />
     </a>
   </div>
 </nav>
@@ -137,7 +205,7 @@
       <a href="/contact/">Kontakta oss</a>
     </div>
     <!-- <div class="certification">
-      Faunapoolen är AquaScape certifierad
+      Faunapoolen är Aquascape-certifierad
       <img src="/assets/images/logo-aquascape.svg" alt="">
   </div> -->
   </div>
@@ -145,3 +213,4 @@
 </main>
 </body>
 </html>
+

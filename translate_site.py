@@ -348,12 +348,109 @@ def context_for(job: PageJob, kind: str, detail: str = "") -> str:
 def meta_content_is_translatable(tag: Tag) -> bool:
     name = str(tag.get("name", "")).lower()
     prop = str(tag.get("property", "")).lower()
-    return name in {"description", "keywords"} or prop in {
+    return name in {"description", "keywords", "twitter:title", "twitter:description"} or prop in {
         "og:title",
         "og:description",
-        "twitter:title",
-        "twitter:description",
     }
+
+
+def target_language_tag(config: Dict[str, Any]) -> str:
+    lang = str(config.get("to", "en")).strip() or "en"
+    return "en-US" if lang == "en" else lang
+
+
+def target_og_locale(config: Dict[str, Any]) -> str:
+    return target_language_tag(config).replace("-", "_")
+
+
+def target_root_url(config: Dict[str, Any]) -> str:
+    prefix = "/" + str(config.get("target_url_prefix", "/en")).strip("/")
+    return prefix + "/"
+
+
+def json_ld_types(node: Dict[str, Any]) -> set:
+    value = node.get("@type")
+    if isinstance(value, str):
+        return {value}
+    if isinstance(value, list):
+        return {item for item in value if isinstance(item, str)}
+    return set()
+
+
+def transform_json_ld(
+    value: Any,
+    job: PageJob,
+    config: Dict[str, Any],
+    catalog: TranslationCatalog,
+    mode: str,
+) -> None:
+    if isinstance(value, list):
+        for item in value:
+            transform_json_ld(item, job, config, catalog, mode)
+        return
+
+    if not isinstance(value, dict):
+        return
+
+    source_website_id = absolute_site_url("/", config).rstrip("/") + "/#website"
+    english_website_url = absolute_site_url(target_root_url(config), config)
+    english_website_id = english_website_url.rstrip("/") + "/#website"
+    english_page_url = absolute_site_url(job.english_url, config)
+    english_page_id = english_page_url.rstrip("/") + "/#webpage"
+    types = json_ld_types(value)
+
+    if value.get("@id") == source_website_id:
+        value["@id"] = english_website_id
+    if value.get("@id") == absolute_site_url(job.source_url, config).rstrip("/") + "/#webpage":
+        value["@id"] = english_page_id
+
+    if "WebSite" in types:
+        value["@id"] = english_website_id
+        value["url"] = english_website_url
+        value["inLanguage"] = target_language_tag(config)
+
+    if "WebPage" in types:
+        value["@id"] = english_page_id
+        value["url"] = english_page_url
+        value["inLanguage"] = target_language_tag(config)
+
+        for key in ("name", "description"):
+            text = value.get(key)
+            if not isinstance(text, str):
+                continue
+            catalog.collect(text, context_for(job, "jsonld", key))
+            if mode == "render":
+                value[key] = catalog.render(text)
+
+    if value.get("@id") == source_website_id:
+        value["@id"] = english_website_id
+
+    for item in value.values():
+        transform_json_ld(item, job, config, catalog, mode)
+
+
+def transform_json_ld_scripts(
+    soup: BeautifulSoup,
+    job: PageJob,
+    config: Dict[str, Any],
+    catalog: TranslationCatalog,
+    mode: str,
+) -> None:
+    for script in soup.find_all("script"):
+        script_type = str(script.get("type", "")).lower()
+        if script_type != "application/ld+json" or not script.string:
+            continue
+
+        try:
+            data = json.loads(str(script.string))
+        except json.JSONDecodeError:
+            continue
+
+        transform_json_ld(data, job, config, catalog, mode)
+        if mode == "render":
+            script.string.replace_with(
+                NavigableString("\n" + json.dumps(data, ensure_ascii=False, indent=6) + "\n  ")
+            )
 
 
 def transform_soup(
@@ -404,11 +501,18 @@ def transform_soup(
         if tag.has_attr("action"):
             tag["action"] = rewrite_url(str(tag["action"]), job, config)
 
-        if tag.name == "meta" and tag.has_attr("content") and meta_content_is_translatable(tag):
-            value = str(tag["content"])
-            catalog.collect(value, context_for(job, "meta", str(tag.get("name") or tag.get("property"))))
-            if mode == "render":
-                tag["content"] = catalog.render(value)
+        if tag.name == "meta" and tag.has_attr("content"):
+            prop = str(tag.get("property", "")).lower()
+            if prop == "og:url":
+                tag["content"] = absolute_site_url(job.english_url, config)
+            elif prop == "og:locale":
+                tag["content"] = target_og_locale(config)
+
+            if meta_content_is_translatable(tag):
+                value = str(tag["content"])
+                catalog.collect(value, context_for(job, "meta", str(tag.get("name") or tag.get("property"))))
+                if mode == "render":
+                    tag["content"] = catalog.render(value)
 
         for attr in translate_attrs:
             if not tag.has_attr(attr):
@@ -419,6 +523,8 @@ def transform_soup(
             catalog.collect(value, context_for(job, "attr", attr))
             if mode == "render":
                 tag[attr] = catalog.render(value)
+
+    transform_json_ld_scripts(soup, job, config, catalog, mode)
 
     for text_node in list(soup.find_all(string=True)):
         if isinstance(text_node, (Comment, Doctype)):

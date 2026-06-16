@@ -17,11 +17,19 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-  <meta property="og:image" content="<!-- $ogImage -->" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="<!-- $canonicalUrl -->" />
+  <meta property="og:site_name" content="Faunapoolen" />
+  <meta property="og:locale" content="sv_SE" />
+  <meta property="og:image" content="https://faunapoolen.se<!-- $ogImage -->" />
   <meta property="og:title" content="<!-- $ogTitle -->" />
   <meta property="og:description" content="<!-- $ogDescription -->" />
   <meta property="og:image:width" content="<!-- $ogImageWidth -->" />
   <meta property="og:image:height" content="<!-- $ogImageHeight -->" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<!-- $ogTitle -->" />
+  <meta name="twitter:description" content="<!-- $ogDescription -->" />
+  <meta name="twitter:image" content="https://faunapoolen.se<!-- $ogImage -->" />
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
@@ -46,6 +54,49 @@
     gtag('js', new Date());
 
     gtag('config', 'G-E1BFSP43WZ');
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://faunapoolen.se/#organization",
+          "name": "Faunapoolen AB",
+          "url": "https://faunapoolen.se/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://faunapoolen.se/assets/images/logo.png"
+          },
+          "image": "https://faunapoolen.se<!-- $ogImage -->",
+          "telephone": "+46735406757"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://faunapoolen.se/#website",
+          "url": "https://faunapoolen.se/",
+          "name": "Faunapoolen",
+          "inLanguage": "sv-SE",
+          "publisher": {
+            "@id": "https://faunapoolen.se/#organization"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "<!-- $canonicalUrl -->#webpage",
+          "url": "<!-- $canonicalUrl -->",
+          "name": "<!-- $pageTitle -->",
+          "description": "<!-- $metaDescription -->",
+          "inLanguage": "sv-SE",
+          "isPartOf": {
+            "@id": "https://faunapoolen.se/#website"
+          },
+          "publisher": {
+            "@id": "https://faunapoolen.se/#organization"
+          }
+        }
+      ]
+    }
   </script>
 </head>
 

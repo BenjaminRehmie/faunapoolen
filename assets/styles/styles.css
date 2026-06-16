@@ -704,6 +704,9 @@ ul.prominent li .material-symbols-outlined {
   width: 21px;
   padding-top: 0.4rem;
 }
+ul.prominent.negative-list .material-symbols-outlined {
+  color: #ff6b6b;
+}
 ul li {
   display: flex;
   align-items: flex-start;

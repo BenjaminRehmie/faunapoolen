@@ -818,6 +818,12 @@ ul {
         padding-top: 0.4rem;
       }
     }
+
+    &.negative-list {
+      .material-symbols-outlined {
+        color: #ff6b6b;
+      }
+    }
   }
 
   li {

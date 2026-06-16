@@ -182,7 +182,7 @@
     },
     "\/assets\/images\/alan-decker.jpg" : {
       "ft" : 16384,
-      "iS" : 785214,
+      "iS" : 300566,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/alan-decker.jpg",
@@ -247,7 +247,7 @@
     },
     "\/assets\/images\/aquascape-team.jpg" : {
       "ft" : 16384,
-      "iS" : 1099595,
+      "iS" : 367398,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/aquascape-team.jpg",
@@ -286,13 +286,13 @@
     },
     "\/assets\/images\/Backyardpool.jpg" : {
       "ft" : 16384,
-      "iS" : 2092075,
+      "iS" : 1754349,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/Backyardpool.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -338,7 +338,7 @@
     },
     "\/assets\/images\/blog\/aquabasin-pump-fountain.jpg" : {
       "ft" : 16384,
-      "iS" : 1419345,
+      "iS" : 565996,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/blog\/aquabasin-pump-fountain.jpg",
@@ -416,7 +416,7 @@
     },
     "\/assets\/images\/blog\/blog-post-creating-harmony.jpg" : {
       "ft" : 16384,
-      "iS" : 1371920,
+      "iS" : 571212,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/blog\/blog-post-creating-harmony.jpg",
@@ -468,7 +468,7 @@
     },
     "\/assets\/images\/blog\/blog-post-pool-conversion.jpg" : {
       "ft" : 16384,
-      "iS" : 1279001,
+      "iS" : 507062,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/blog\/blog-post-pool-conversion.jpg",
@@ -533,7 +533,7 @@
     },
     "\/assets\/images\/blog\/small-features-for-small-spaces.jpg" : {
       "ft" : 16384,
-      "iS" : 1130491,
+      "iS" : 442190,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/blog\/small-features-for-small-spaces.jpg",
@@ -557,6 +557,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/blog\/test-image.jpg" : {
+      "ft" : 16384,
+      "iS" : 433361,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/blog\/test-image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/blog\/test-image.png" : {
       "ft" : 32768,
       "iS" : 833851,
@@ -572,7 +585,7 @@
     },
     "\/assets\/images\/brian-pond.jpg" : {
       "ft" : 16384,
-      "iS" : 674809,
+      "iS" : 276726,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/brian-pond.jpg",
@@ -624,7 +637,7 @@
     },
     "\/assets\/images\/dip-pond-field.jpg" : {
       "ft" : 16384,
-      "iS" : 1423818,
+      "iS" : 497659,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/dip-pond-field.jpg",
@@ -637,13 +650,13 @@
     },
     "\/assets\/images\/dip-pond-hero.jpg" : {
       "ft" : 16384,
-      "iS" : 6766632,
+      "iS" : 1399422,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/dip-pond-hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -715,7 +728,7 @@
     },
     "\/assets\/images\/eds-pond-waterfall.jpg" : {
       "ft" : 16384,
-      "iS" : 1004471,
+      "iS" : 365854,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/eds-pond-waterfall.jpg",
@@ -728,7 +741,7 @@
     },
     "\/assets\/images\/Faunapoolen - ip Pond Hero Image.jpg" : {
       "ft" : 16384,
-      "iS" : 6766632,
+      "iS" : 2660810,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/Faunapoolen - ip Pond Hero Image.jpg",
@@ -741,7 +754,7 @@
     },
     "\/assets\/images\/faunapoolen-dip-pond.jpg" : {
       "ft" : 16384,
-      "iS" : 1039301,
+      "iS" : 396400,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/faunapoolen-dip-pond.jpg",
@@ -957,7 +970,7 @@
     },
     "\/assets\/images\/got2.jpeg" : {
       "ft" : 16384,
-      "iS" : 4758281,
+      "iS" : 4668019,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/got2.jpg",
@@ -1009,7 +1022,7 @@
     },
     "\/assets\/images\/got6.jpeg" : {
       "ft" : 16384,
-      "iS" : 5298021,
+      "iS" : 5257451,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/got6.jpg",
@@ -1022,7 +1035,7 @@
     },
     "\/assets\/images\/got7.jpeg" : {
       "ft" : 16384,
-      "iS" : 3916359,
+      "iS" : 3894729,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/got7.jpg",
@@ -1048,7 +1061,7 @@
     },
     "\/assets\/images\/greg-pond.jpg" : {
       "ft" : 16384,
-      "iS" : 1071515,
+      "iS" : 431369,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/greg-pond.jpg",
@@ -1321,7 +1334,7 @@
     },
     "\/assets\/images\/koi-ponds\/hero-image-koi.jpg" : {
       "ft" : 16384,
-      "iS" : 478615,
+      "iS" : 141664,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/koi-ponds\/hero-image-koi.jpg",
@@ -1360,7 +1373,7 @@
     },
     "\/assets\/images\/koi-ponds\/pool-pond-hero.jpg" : {
       "ft" : 16384,
-      "iS" : 779711,
+      "iS" : 271012,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/koi-ponds\/pool-pond-hero.jpg",
@@ -1537,6 +1550,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/og-image.jpg" : {
+      "ft" : 16384,
+      "iS" : 57118,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/og-image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/og-image.png" : {
       "ft" : 32768,
       "iS" : 90140,
@@ -1556,6 +1582,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/plunge\/aquascape-plunge1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/plunge\/aquascape-plunge2.jpg" : {
+      "ft" : 16384,
+      "iS" : 425254,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/plunge\/aquascape-plunge2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1630,13 +1669,13 @@
     },
     "\/assets\/images\/portrait-mikael.jpg" : {
       "ft" : 16384,
-      "iS" : 237148,
+      "iS" : 181945,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/portrait-mikael.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2046,7 +2085,7 @@
     },
     "\/assets\/images\/swim\/aquascape-swim4.jpg" : {
       "ft" : 16384,
-      "iS" : 1958253,
+      "iS" : 278877,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/swim\/aquascape-swim4.jpg",
@@ -2109,7 +2148,7 @@
     },
     "\/assets\/images\/swim\/hero-image-swim.jpg" : {
       "ft" : 16384,
-      "iS" : 461279,
+      "iS" : 155639,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/swim\/hero-image-swim.jpg",
@@ -2122,7 +2161,7 @@
     },
     "\/assets\/images\/swim\/landing-hero-image.jpg" : {
       "ft" : 16384,
-      "iS" : 757804,
+      "iS" : 264938,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/swim\/landing-hero-image.jpg",
@@ -2185,7 +2224,7 @@
     },
     "\/assets\/images\/waterfront\/aquascape-waterfront-hero-image.jpg" : {
       "ft" : 16384,
-      "iS" : 680726,
+      "iS" : 224678,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/waterfront\/aquascape-waterfront-hero-image.jpg",
@@ -2418,6 +2457,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blog\/posts\/algae-control-and-maintenance-tips.html",
+      "oF" : 0
+    },
+    "\/blog\/posts\/blog-post-template.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/blog-post-template.html",
       "oF" : 0
     },
     "\/blog\/posts\/blog-post-template.kit" : {
