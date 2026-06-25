@@ -2451,6 +2451,14 @@
       "oAP" : "\/blog\/posts\/algae-control-and-maintenance-tips.html",
       "oF" : 0
     },
+    "\/blog\/posts\/blog-post-template.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blog\/posts\/blog-post-template.html",
+      "oF" : 0
+    },
     "\/blog\/posts\/blog-post-template.kit" : {
       "cB" : 0,
       "ft" : 2048,
